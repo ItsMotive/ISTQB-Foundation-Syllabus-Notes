@@ -200,3 +200,62 @@
     - System fulfills users' needs and expectations
     - Achieve customer's business goals
 - Verification and Validation should both be done.
+
+## Test Activities, Testware, and Test Roles
+- Without a common set of **test activities**, testing can become less likely to reach **test objectives**.
+- A set of **test activities** create a **test process**.
+- **Test Planning:** 
+    - Test process can be tailored to a given situation based on various factors:
+        - Which test activities are included in the test process
+        - How test activities are implemented
+        - When test activities occur
+- [ISO/IEC/IEEE 29119-2 2021 Standard](https://ieeexplore.ieee.org/document/9687474) provides more info about test processes. 
+
+    ## Test Activities and Tasks
+    - Although many of the to be listed test activities seem to follow a logical sequence, they are often implemented iteratively or in parallel. 
+    - The testing activities need to be tailored to the system or the project.
+    - **Test Process** consists of these main groups of activities:
+        
+        ### Test planning
+        - Defining test objectives
+        - Selecting the best approach to achieve the objective within the constraints defined
+
+        ### Test Monitoring and Control
+        - **Test Monitoring:**
+            - Continuously checking all test activities 
+            - Comparing actual progress against test plan
+        - **Test Control:**
+            - Taking necessary actions to meet test objective
+
+        ### Test Analysis
+        - Analyze the test basis to identify testable features.
+        - Define and Prioritize associated test conditions, together with related risks and risk levels.
+        - Test Basis and Test Objects are evaluated to identify defects and assess testability.
+        - Answers the question, "What to test" in terms of measurable coverage criteria. 
+
+        ### Test Design 
+        - Turning **Test Conditions** into **Test Cases** and other **Testware**.
+        - Identifying coverage items as a guide to specify test case inputs.
+        - Defining test data requirements.
+        - Designing test environment.
+        - Identifying other required infrastructure and tools.
+        - [Testing Techniques](Chapter%204.md) can support test designing.
+        - Answers the question, "How to test?"
+
+        ### Test Implementation
+        - Creating/Gathering testware for Test Execution.
+            - EX: Test Data
+        - Organized into Test Procedures.
+            - Prioritized and Arranged within Test Execution Schedule for more efficient Test Execution. 
+        - Assembled into Test Suites
+        - Manual and Automated Test Scripts are created here. 
+
+        ### Test Execution
+        - Running tests according to Test Execution Schedule (Test Runs).
+        - Comparing actual test results with expected.
+        - Logging test results and defects.
+        - Manual or Automated Testing
+        - Continuous or Pair Testing Sessions
+    
+        ### Test Completion
+        - 
