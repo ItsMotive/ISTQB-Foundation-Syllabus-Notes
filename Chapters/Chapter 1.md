@@ -15,27 +15,28 @@
     - K2: Understand - You should be able to select an explanation for a statement related to the question topic
 
 ## Learning Objectives for Chapter 1
-- [What is Testing?](#what-is-testing?)
-    - [(K1) Identify Typical Test Objectives](#Test-Objectives)
-    - [(K2) Differentiate Testing from Debugging](#testing-and-debugging)
-- [Why is Testing Necessary?]()
-    - [(K2) Exemplify Why Testing is Necessary]()
-    - [(K1) Recall the Relation between Testing and Quality Assurance]()
-    - [(K2) Distinguish between Root Cause, Error, Defect, and Failure]()
-- [Testing Principles]()
-    - [(K2) Explain the Seven Testing Principles]()
-- [Test Activities, Testware, and Test Roles]()
-    - [(K2) Summarize the Different Test Activities and Tasks]()
-    - [(K2) Explain the Impact of Context on the Test Process]()
-    - [(K2) Differentiate the Testware that Supports the Test Activities]()
-    - [(K2) Explain the Value of Maintaining Traceability]()
-    - [(K2) Compare the Different Roles in Testing]()
-- [Essential Skills and Good Practices in Testing]()
-    - [(K2) Give Examples of the Generic Skills Required for Testing]()
-    - [(K1) Recall the Advantages of the Whole Team Approach]()
-    - [(K2) Distinguish the Benefits and Drawbacks of Independence of Testing]()
+- [What is Testing?](#11)
+    - [(K1) Identify Typical Test Objectives](#111)
+    - [(K2) Differentiate Testing from Debugging](#112)
+- [Why is Testing Necessary?](#12)
+    - [(K2) Exemplify Why Testing is Necessary](#121)
+    - [(K1) Recall the Relation between Testing and Quality Assurance](#122)
+    - [(K2) Distinguish between Root Cause, Error, Defect, and Failure](#123)
+- [Testing Principles](#13)
+    - [(K2) Explain the Seven Testing Principles](#131)
+- [Test Activities, Testware, and Test Roles](#14)
+    - [(K2) Summarize the Different Test Activities and Tasks](#141)
+    - [(K2) Explain the Impact of Context on the Test Process](#142)
+    - [(K2) Differentiate the Testware that Supports the Test Activities](#143)
+    - [(K2) Explain the Value of Maintaining Traceability](#144)
+    - [(K2) Compare the Different Roles in Testing](#145)
+- [Essential Skills and Good Practices in Testing](#15)
+    - [(K2) Give Examples of the Generic Skills Required for Testing](#151)
+    - [(K1) Recall the Advantages of the Whole Team Approach](#152)
+    - [(K2) Distinguish the Benefits and Drawbacks of Independence of Testing](#153)
 
-## What is Testing?
+<a id="11"></a>
+## (1.1) What is Testing? 
 
 **Software Testing...**
 - Assesses Software Quality and helps reducing the risk of software failure.
@@ -45,7 +46,8 @@
 - Is an intellectual activity, requiring testers to have specialized knowledge, use analytical skills, and apply critical thinking and systems thinking. 
 - Uses [Tools](Chapter%206.md)
 
-    ## Test Objectives
+    <a id="111"></a>
+    ## (1.1.1) Test Objectives
     - **Typical Objectives:**
         - Evaluating work products such as requirements, user stories, designs, and code.
         - Triggering failures and finding defects.
@@ -66,8 +68,9 @@
             - Corporate Structure
             - Competitive Considerations
             - Time to Market
-
-    ## Testing and Debugging
+    
+    <a id="112"></a>
+    ## (1.1.2) Testing and Debugging
     - **Testing:** Triggers failure that are caused by defects in the software or finds defects in the test object.
 
     - **Debugging:** Finds causes for defect/failure, analyzes, and eliminates them.
@@ -78,10 +81,12 @@
         - Fixing the cause
 
     - **Subsequent Confirmation Testing** - Initial Tester checks whether the fixes resolved the problem.
-    - **Subsequent Regression Testing** - Checks whether the fixes are causing failures in other parts of the test object. [(Section 2.2.3)](Chapter%202.md#Distinguish-confirmation-testing-from-regression-testing)
+    - **Subsequent Regression Testing** - Checks whether the fixes are causing failures in other parts of the test object. [(Section 2.2.3)](Chapter%202.md#223)
     - With Static Testing, there is no need for reproduction or diagnosis, since it directly finds defects and cannot cause failures. 
 
-## Why is Testing necessary?
+<a id="12"></a>
+
+## (1.2) Why is Testing necessary?
 - Testing components, systems, and associated documentation helps to identify defects in software.
 - Testing's contribution to success should not be restricted to the test team's activities.
 
@@ -92,7 +97,8 @@
         - Quality
         - Budget Constraint
 
-    ## Testing's Contributions to Success
+    <a id="121"></a>
+    ## (1.2.1) Testing's Contributions to Success
     - Testing indirectly contributes to high quality test objects.
     - Test objects contribute to decisions to move to next stages of SDLC, such as release decision.
 
@@ -103,7 +109,8 @@
         - Means of meeting contractual or legal requirements
         - Means of complying with regulatory standards
 
-    ## Testing and Quality Assurance (QA)
+    <a id="122"></a>
+    ## (1.2.2) Testing and Quality Assurance (QA)
     - Testing and Quality Assurance are **not the same**.
     - Test results are used by QA and QC.
 
@@ -126,7 +133,8 @@
         - Applies to development and testing processes
         - Responsibility of everyone on the project
 
-    ## Errors, Defects, Failures, and Root Causes
+    <a id="123"></a>
+    ## (1.2.3) Errors, Defects, Failures, and Root Causes
     - **Errors (Mistakes)** produce **Defects (Faults, Bugs)** which results in **Failures**.
 
     - **Errors** 
@@ -158,7 +166,9 @@
         - Fundamental reason for a problem or problems.
         - Identified through **Root Cause Analysis**.
 
-## Testing Principles
+<a id="13"></a>
+
+## (1.3) Testing Principles
 ### 1. Testing shows the presence, not the absence of defects.
 - Testing can:
     - Show defects are present
@@ -171,8 +181,8 @@
 - Testing everything is not feasible except in trivial cases.
 - Instead use ____ to focus test efforts:
     - [Test Techniques](Chapter%204.md)
-    - [Test Case Prioritization](Chapter%205#Section-5.1.5)
-    - [Risk-Based Testing](Chapter%205#Section-5.2)
+    - [Test Case Prioritization](Chapter%205#515)
+    - [Risk-Based Testing](Chapter%205#52)
 
 ### 3. Early testing saves time and money
 - Defects found early in the SDLC will reduce defects later on whether related or not.
@@ -188,7 +198,7 @@
 - To work around this:
     - Modify existing tests
     - Modify existing test data
-    - Create new testse
+    - Create new tests
 - Repeating tests such as Automated Regression **can** be beneficial
 
 ### 6. Testing is context dependent.
@@ -201,7 +211,9 @@
     - Achieve customer's business goals
 - Verification and Validation should both be done.
 
-## Test Activities, Testware, and Test Roles
+<a id="14"></a>
+
+## (1.4) Test Activities, Testware, and Test Roles
 - Without a common set of **test activities**, testing can become less likely to reach **test objectives**.
 - A set of **test activities** create a **test process**.
 - **Test Planning:** 
@@ -211,7 +223,8 @@
         - When test activities occur
 - [ISO/IEC/IEEE 29119-2 2021 Standard](https://ieeexplore.ieee.org/document/9687474) provides more info about test processes. 
 
-    ## Test Activities and Tasks
+    <a id="141"></a>
+    ## (1.4.1) Test Activities and Tasks
     - Although many of the to be listed test activities seem to follow a logical sequence, they are often implemented iteratively or in parallel. 
     - The testing activities need to be tailored to the system or the project.
     - **Test Process** consists of these main groups of activities:
@@ -271,7 +284,8 @@
         - Review Test Activities for lessons learned and improvements for future iterations, releases, or projects.
         - Test Completion Report is created and shared with stakeholders.
 
-    ## Test Process in Context
+    <a id="142"></a>
+    ## (1.4.2) Test Process in Context
     - Testing is funded by stakeholders and the final goal is to fulfill the stakeholders' business requirements.
     - Testing will depend on:
         - Stakeholders (needs, expectations, requirements, willingness to cooperate, etc.)
@@ -291,7 +305,8 @@
         - Reporting
         - etc.
 
-    ## Testware
+    <a id="143"></a>
+    ## (1.4.3) Testware
     - Created as output **Work Products** from [Test Activities](#test-activities-and-tasks).
     - No company creates and manage their Work Products the same.
     - Proper management of configuration ensures consistency and integrity of Work Products.
