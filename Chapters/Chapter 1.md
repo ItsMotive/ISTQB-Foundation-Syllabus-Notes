@@ -360,3 +360,62 @@
             - Documented Lessons Learn
             - Change Requests
                 - EX: Product Backlog Items
+
+    <a id="144"></a>
+    ## (1.4.4) Traceability between the Test Basis and Testware
+    - Important to establish and maintain traceability throughout the test process.
+        - Test Basis Elements
+        - Testware associated with:
+            - Test Conditions
+            - Risks
+            - Test Cases
+            - etc.
+    - Accurate traceability supports coverage evaluation.
+    - Measurable Coverage Criteria should be defined in Test Basis.
+        - Traceability of Test Cases to Requirements verify Requirements are covered by Test Cases.
+        - Traceability of Test Results to Risks evaluate level of Residual Risk in Test Objects.
+    - Traceability in general provides:
+        - Information to assess Product Quality
+        - Process Capability
+        - Project Progress against business goals
+    - Good Traceability allows for:
+        - Determining impact of changes
+        - Facilitates Test Audits
+        - Meet IT Governance Criteria
+        - Test Progress and Test Completion Reports more easily understandable
+            - Includes Status of Test Basis Elements
+        - Assist in communicating Technical Aspects of Testing to Stakeholders
+
+    <a id="145"></a>
+    ## (1.4.5) Roles in Testing
+    - There are two (2) Principle Roles: **Test Management** and **Testing**
+    - Different people may take on these roles at different times.
+        - Test Management Role can be performed by:
+            - Team Leader
+            - Test Manager
+            - Development Manager
+            - etc.
+    - One (1) person can also take on both roles at the same time.
+
+    - **Test Management Role:**
+        - Overall responsible for: 
+            - Test Process
+            - Test Team
+            - Leadership of Test Activities
+        - Mainly focused on:
+            - Activities of Test Plan
+            - Test Monitoring
+            - Test Controlling
+            - Test Completion
+        - Agile Example:
+            - Test Management tasks may be handled by Agile Team
+            - Tasks for multiple teams or entire organization may be performed by Test Managers outside of Development Team
+
+    - **Testing Role**
+        - Overall responsible for:
+            - Engineering (Technical) aspect of Testing
+        - Mainly focused on Activities of:
+            - Test Analysis
+            - Test Design
+            - Test Implementation
+            - Test Execution
