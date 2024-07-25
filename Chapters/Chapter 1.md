@@ -256,6 +256,92 @@
         - Logging test results and defects.
         - Manual or Automated Testing
         - Continuous or Pair Testing Sessions
-    
+
         ### Test Completion
-        - 
+        - Usually occurs at **Project Milestones** for: 
+            - Unresolved Defects
+            - Change Requests
+            - Product Backlog items created
+            - Project Milestone Examples: 
+                - Release
+                - End of Iterations
+                - Test Level Completion
+        - Identifying, Archiving, or Handing over Testware for future use.
+        - Test Environment is shutdown and archived in an agreed state.
+        - Review Test Activities for lessons learned and improvements for future iterations, releases, or projects.
+        - Test Completion Report is created and shared with stakeholders.
+
+    ## Test Process in Context
+    - Testing is funded by stakeholders and the final goal is to fulfill the stakeholders' business requirements.
+    - Testing will depend on:
+        - Stakeholders (needs, expectations, requirements, willingness to cooperate, etc.)
+        - Team members (skills, knowledge, level of experience, availability, training needs, etc.)
+        - Business domain (criticality of the test object, identified risks, market needs, specific legal regulations, etc.)
+        - Technical factors (type of software, product architecture, technology used, etc.)
+        - Project constraints (scope, time, budget resources, etc.)
+        - Organizational factors (organization structure, existing policies, practices used, etc.)
+        - Software Development Lifecycle (engineering practices, development methods, etc.)
+        - Tools (availability, usability, compliance, etc.)
+    - These factors impact test-related issues, such as:
+        - Test Strategy
+        - Test Techniques used
+        - Degree of Test Automation
+        - Required level of coverage
+        - Level of Test Documentation detail
+        - Reporting
+        - etc.
+
+    ## Testware
+    - Created as output **Work Products** from [Test Activities](#test-activities-and-tasks).
+    - No company creates and manage their Work Products the same.
+    - Proper management of configuration ensures consistency and integrity of Work Products.
+    - Some Work Products include:
+        - **Test planning Work Products**
+            - Test Plan
+            - Test Schedule
+            - Risk Register
+                - List of risks with:
+                    - Risk Likelihood
+                    - Risk Impact
+                    - [Risk Mitigation](Chapter%205#Section2) Info
+            - [Entry/Exit Criteria](Chapter%205#Section1)
+
+        - **Test Monitoring and Control Work Products**
+            - [Test Progress Reports](Chapter%205#Section3.2)
+            - [Documentation of Control Directives](Chapter%205#Section3)
+            - [Risk Information](Chapter%205#Section2)
+
+        - **Test Analysis Work Products**
+            - (Prioritized) Test Conditions
+                - Acceptance Criteria
+            - Defect Reports with Test Basis defects (if not fixed directly)
+
+        - **Test Design Work Products**
+            - (Prioritized) Test Cases
+            - Test Charters
+            - Coverage Items
+            - Test Data Requirements
+            - Test Environment Requirements
+
+        - **Test Implementation Work Products**
+            - Test Procedures
+            - Automated Test Scripts
+            - Test Suites
+            - Test Data
+            - Test Execution Schedule
+            - Test Environment Variables
+                - Stubs
+                - Drivers
+                - Simulators
+                - Service Virtualizations
+
+        - **Test Execution Work Products**
+            - Test Logs
+            - [Defect Reports](Chapter%205#Section5)
+
+        - **Test Completion Work Products**
+            - [Test Completion Report](Chapter%205#Section3.2)
+            - Action Items for Improvement
+            - Documented Lessons Learn
+            - Change Requests
+                - EX: Product Backlog Items
