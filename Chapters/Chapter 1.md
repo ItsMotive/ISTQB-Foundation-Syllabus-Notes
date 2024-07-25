@@ -307,7 +307,7 @@
 
     <a id="143"></a>
     ## (1.4.3) Testware
-    - Created as output **Work Products** from [Test Activities](#test-activities-and-tasks).
+    - Created as output **Work Products** from [Test Activities](#141).
     - No company creates and manage their Work Products the same.
     - Proper management of configuration ensures consistency and integrity of Work Products.
     - Some Work Products include:
@@ -318,13 +318,13 @@
                 - List of risks with:
                     - Risk Likelihood
                     - Risk Impact
-                    - [Risk Mitigation](Chapter%205#Section2) Info
-            - [Entry/Exit Criteria](Chapter%205#Section1)
+                    - [Risk Mitigation](Chapter%205#2) Info
+            - [Entry/Exit Criteria](Chapter%205#1)
 
         - **Test Monitoring and Control Work Products**
             - [Test Progress Reports](Chapter%205#Section3.2)
-            - [Documentation of Control Directives](Chapter%205#Section3)
-            - [Risk Information](Chapter%205#Section2)
+            - [Documentation of Control Directives](Chapter%205#3)
+            - [Risk Information](Chapter%205#2)
 
         - **Test Analysis Work Products**
             - (Prioritized) Test Conditions
@@ -352,10 +352,10 @@
 
         - **Test Execution Work Products**
             - Test Logs
-            - [Defect Reports](Chapter%205#Section5)
+            - [Defect Reports](Chapter%205#5)
 
         - **Test Completion Work Products**
-            - [Test Completion Report](Chapter%205#Section3.2)
+            - [Test Completion Report](Chapter%205#532)
             - Action Items for Improvement
             - Documented Lessons Learn
             - Change Requests
