@@ -10,7 +10,13 @@
   </ul>
 </details>
 
-<a id="15"></a>
+## Section Guide
+
+- [(K2) Give Examples of the Generic Skills Required for Testing](#151)
+- [(K1) Recall the Advantages of the Whole Team Approach](#152)
+- [(K2) Distinguish the Benefits and Drawbacks of Independence of Testing](#153)
+
+  <a id="15"></a>
 
 ## (1.5) Essential Skills and Good Practices in Testing
 

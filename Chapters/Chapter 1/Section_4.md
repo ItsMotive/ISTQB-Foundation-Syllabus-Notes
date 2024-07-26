@@ -10,6 +10,14 @@
   </ul>
 </details>
 
+## Section Guide
+
+- [(K2) (1.4.1) Summarize the Different Test Activities and Tasks](#141)
+- [(K2) (1.4.2) Explain the Impact of Context on the Test Process](#142)
+- [(K2) (1.4.3) Differentiate the Testware that Supports the Test Activities](#143)
+- [(K2) (1.4.4) Explain the Value of Maintaining Traceability](#144)
+- [(K2) (1.4.5) Compare the Different Roles in Testing](#145)
+
 <a id="14"></a>
 
 ## (1.4) Test Activities, Testware, and Test Roles

@@ -10,6 +10,11 @@
   </ul>
 </details>
 
+## Section Guide
+
+- [(K1) (1.1.1) Identify Typical Test Objectives](#111)
+- [(K2) (1.1.2) Differentiate Testing from Debugging](#112)
+
 <a id="11"></a>
 
 ## (1.1) What is Testing?

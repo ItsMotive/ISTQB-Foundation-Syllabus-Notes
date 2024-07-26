@@ -10,6 +10,10 @@
   </ul>
 </details>
 
+## Section Guide
+
+- [(K2) (1.3.1) Explain the Seven Testing Principles](#13)
+
 <a id="13"></a>
 
 ## (1.3) Testing Principles

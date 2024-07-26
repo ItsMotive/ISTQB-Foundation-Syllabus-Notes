@@ -10,6 +10,12 @@
   </ul>
 </details>
 
+## Section Guide
+
+- [(K2) (1.2.1) Exemplify Why Testing is Necessary](#121)
+- [(K1) (1.2.2) Recall the Relation between Testing and Quality Assurance](#122)
+- [(K2)(1.2.3) Distinguish between Root Cause, Error, Defect, and Failure](#123)
+
 <a id="12"></a>
 
 ## (1.2) Why is Testing necessary?
