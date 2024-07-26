@@ -8,6 +8,16 @@
   </ul>
 </details>
 
+## Section Guide
+
+- [Testing in the Context of a Software Development Lifecycle](21)
+  - [(K2) Explain the impact of the chosen SDLC on testing](211)
+  - [(K1) Recall good testing practices that apply to all SDLC](212)
+  - [(K1) Recall the examples of Test-First approaches to development](213)
+  - [(K2) Summarize how DevOps might have an impact on testing](214)
+  - [(K2) Explain the Shift-Left Approach](215)
+  - [(K2) Explain how retrospectives can be used as a mechanism for process improvement](216)
+
 <a id="21"></a>
 
 ## (2.1) Testing in the Context of SDLC
