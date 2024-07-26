@@ -3,8 +3,12 @@
   <ul>
     <li><a href="/README.md">Home</a></li>
     <li><a href="Chapter_1_Home.md">Chapter 1</a></li>
+    <li><a href="../Chapter 2/Chapter_2_Home.md">Chapter 2</a></li>
+    <li><a href="../Chapter 3/Chapter_3_Home.md">Chapter 3</a></li>
+    <li><a href="../Chapter 4/Chapter_4_Home.md">Chapter 4</a></li>
+    <li><a href="../Chapter 5/Chapter_5_Home.md">Chapter 5</a></li>
+    <li><a href="../Chapter 6/Chapter_6_Home.md">Chapter 6</a></li>
   </ul>
-  
 </details>
 
 # Chapter 1: Fundamentals of Testing
@@ -24,7 +28,7 @@
   - K1: Remember - You should remember/recognize a term or a concept
   - K2: Understand - You should be able to select an explanation for a statement related to the question topic
 
-## Learning Objectives for Chapter 1
+## Learning Objectives
 
 - [What is Testing?](Section_1.md#11)
   - [(K1) Identify Typical Test Objectives](Section_1.md#111)
