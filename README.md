@@ -13,3 +13,5 @@
 
 ## References
 - [Link to Syllabus v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf)
+- [Practice Test (Patshala)](https://istqb.patshala.com/)
+- [ISTQB Foundation Level Info](https://www.istqb.org/certifications/certified-tester-foundation-level)
