@@ -21,6 +21,10 @@
   - Feedback Process
   - Review Process
 
+- Knowledge Levels
+  - K1: Remember - You should remember/recognize a term or a concept
+  - K2: Understand - You should be able to select an explanation for a statement related to the question topic
+
 ## Learning Objectives of Chapter 3
 - [Static Testing Basics](Section_1.md)
   - [(K1) Recognize types of products that can be examined by the different static test techniques](Section_1.md#311)
