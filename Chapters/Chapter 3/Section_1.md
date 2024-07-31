@@ -16,7 +16,7 @@
 
 <a id=31></a>
 
-## Static Testing Basics
+## (3.1) Static Testing Basics
 - Testing software without executing the code
 - Can be applied for verifications and validations
 - Cab identify problems prior to dynamic testing due to:
