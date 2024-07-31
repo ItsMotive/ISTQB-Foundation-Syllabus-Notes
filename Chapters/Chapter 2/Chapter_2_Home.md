@@ -42,4 +42,4 @@
   - [(K2) Distinguish the different test types](Section_2.md#222)
   - [(K2) Distinguish confirmation testing from regression testing](Section_2.md#223)
 - [Maintenance Testing](Section_3.md#23)
-  - [(K2) Summarize maintenance testing and its triggers](Section_3.md#231)
+  - [(K2) Summarize maintenance testing and its triggers](Section_3.md#23)
