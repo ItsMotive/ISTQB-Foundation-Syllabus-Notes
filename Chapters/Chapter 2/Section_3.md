@@ -12,6 +12,8 @@
 # Section Guide
   - [(K2) Summarize maintenance testing and its triggers](Section_3.md)
 
+<a id="23"></a>
+
 ## (2.3) Maintenance Testing
 - Different Categories:
   - Corrective
