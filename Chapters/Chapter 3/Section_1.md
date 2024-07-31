@@ -10,9 +10,9 @@
 
 # Section Guide
 
-- [Recognize types of products that can be examined by the different static test techniques](Section_1.md#311)
-- [Explain the value of static testing](Section_1.md#312)
-- [Compare and contrast static and dynamic testing](Section_1.md#313)
+- [Recognize types of products that can be examined by the different static test techniques](#311)
+- [Explain the value of static testing](#312)
+- [Compare and contrast static and dynamic testing](#313)
 
 <a id=31></a>
 
