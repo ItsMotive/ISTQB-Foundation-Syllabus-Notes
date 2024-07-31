@@ -17,7 +17,7 @@
 
 <a id=22></a>
 
-## Test Levels and Test Types
+## (2.2) Test Levels and Test Types
 - **Test Levels** are groups of Test Activities that are organized and managed together
 - Each Test Level is an instance of the test process, performed in relation to software at a stage of development, from individual components to complete systems
 
