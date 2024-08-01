@@ -12,3 +12,7 @@
 </details>
 
 # Section Guide
+- [(K3) Use equivalence partitioning to derive test cases](#421)
+- [(K3) Use boundary value analysis to derive test cases](#422)
+- [(K3) Use decision table testing to derive test cases](#423)
+- [(K3) Use state transition testing to derive test cases](#424)

@@ -12,3 +12,6 @@
 </details>
 
 # Section Guide
+- [(K2) Explain how to write user stories in collaboration with developers and business representatives](#451)
+- [(K2) Classify the different options for writing acceptance criteria](#452)
+- [(K3) Use acceptance test-driven development (ATDD) to derive test cases](#453)

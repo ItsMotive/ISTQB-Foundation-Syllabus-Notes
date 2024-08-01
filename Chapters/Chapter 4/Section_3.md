@@ -12,3 +12,6 @@
 </details>
 
 # Section Guide
+- [(K2) Explain statement testing](#431)
+- [(K2) Explain branch testing](#432)
+- [(K2) Explain the value of white-box testing](#433)

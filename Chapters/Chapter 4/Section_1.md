@@ -12,3 +12,5 @@
 </details>
 
 # Section Guide
+- [(K2) Distinguish black-box, white-box and experience-based test techniques](#41)
+

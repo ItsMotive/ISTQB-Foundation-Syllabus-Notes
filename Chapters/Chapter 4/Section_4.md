@@ -12,3 +12,6 @@
 </details>
 
 # Section Guide
+- [(K2) Explain error guessing](#441)
+- [(K2) Explain exploratory testing](#442)
+- [(K2) Explain checklist-based testing](#443)
