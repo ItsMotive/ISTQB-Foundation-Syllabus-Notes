@@ -73,6 +73,46 @@
     - Transfer of control can be:
       - Unconditional (Straight-Line Code)
       - Conditional (Decision outcome)
+
   - **Branch Testing**
     - Coverage items are branches
-    -
+    - Design test cases to exercise branches in the code until an acceptable level of coverage is achieved
+    - Coverage is measured as:
+      - Number of branches exercised by the test cases
+      - Divided by the total number of branches
+      - Expressed as a percentage
+
+  - **100% Branch Coverage**
+    - All branches in the code, unconditional and conditional, are exercised by test cases
+    - Conditional branches typically correspond to a true of false outcome
+      - "If...Then" Decision
+      - A Switch/Case Statement
+      - Decision to exit or continue loop
+    - Exercising a branch with a test case will not detect defects in all cases
+      - May not detect defects requiring the execution of a specific path in a code
+  - Branch coverage subsumes statement coverage
+    - Any set of test cases achieving 100% **Branch Coverage** also achieves 100% **Statement Coverage**, not vise versa
+
+  <a id=433></a>
+
+  ## The Value of White-Box Testing
+  - Fundamental Strength
+    - Entire software implementation is taken into account during testing
+    - Facilitates defect detection even when software specification is vague, outdated, or incomplete
+
+  - Weakness
+    - If the software does not implement one or more requirements, White-Box Testing may not detect the resulting defects of omission
+
+  - Can be used in Static Testing
+    - During dry runs of code
+
+  - Well suited to reviewing code that is not yet ready for:
+    - Execution
+    - Pseudocode
+    - High-Level or Top-Down Logic which can be modeled with a control flow graph
+
+  - Only Black-Box Testing does not provide a measure of actual code coverage
+  - White-Box Coverage measures provide an objective measurement of coverage
+    - Provides the necessary information to allow additional tests to be generated for:
+      - Increase of coverage
+      - Increase of confidence in the code
