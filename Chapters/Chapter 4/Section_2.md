@@ -19,7 +19,7 @@
 
 <a id=42></a>
 
-## Black-Box Test Techniques
+## (4.2) Black-Box Test Techniques
 - Commonly used techniques:
     - Equivalence Partitioning
     - Boundary Value Analysis
@@ -28,7 +28,7 @@
 
     <a id=421></a>
 
-    ## Equivalence Partitioning
+    ## (4.2.1) Equivalence Partitioning
     - Divides data into partitions
     - Partitions can be:
         - Continuous or discrete
@@ -72,7 +72,7 @@
 
     <a id=422></a>
 
-    ## Boundary Value Analysis
+    ## (4.2.2) Boundary Value Analysis
     - Based on exercising the boundaries of Equivalence Partitions
         - Can only be used for ordered partitions
         - This is due to developers more likely to make errors with these boundary values
@@ -115,7 +115,7 @@
 
     <a id=423></a>
 
-    ## Decision Table Testing
+    ## (4.2.3) Decision Table Testing
     - Used for testing implementation of system requirements that specify how different combinations of conditions result in different outcomes
     - Effective way of recording complex logic, such as business rules
     - Table Rows
@@ -167,7 +167,7 @@
 
     <a id=424></a>
     
-    ## State Transition Testing
+    ## (4.2.4) State Transition Testing
     - **State Transition Diagram** 
         - Models the behavior of a system by showing its possible states and valid state transitions
         - Transition is initiated by an event
