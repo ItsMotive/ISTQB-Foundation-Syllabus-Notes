@@ -10,3 +10,6 @@
     <li><a href="Section_5.md">Section 5</a></li>
   </ul>
 </details>
+
+## Section Guide
+- [(K2) Summarize how configuration management supports testing](Section_4.md)

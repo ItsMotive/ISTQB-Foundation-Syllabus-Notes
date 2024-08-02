@@ -10,3 +10,13 @@
     <li><a href="Section_5.md">Section 5</a></li>
   </ul>
 </details>
+
+## Section Guide
+- [(K2) Exemplify the purpose and content of a test plan](#511)
+- [(K1) Recognize how a tester adds value to iteration and release planning](#512)
+- [(K2) Compare and contrast entry criteria and exit criteria](#513)
+- [(K3) Use estimation techniques to calculate the required test effort](#514)
+- [(K3) Apply test case prioritization](#515)
+- [(K1) Recall the concepts of the test pyramid](#516)
+- [(K2) Summarize the testing quadrants and their relationships with test levels and test types](#517)
+

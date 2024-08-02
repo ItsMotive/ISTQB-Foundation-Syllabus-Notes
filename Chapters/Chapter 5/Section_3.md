@@ -10,3 +10,8 @@
     <li><a href="Section_5.md">Section 5</a></li>
   </ul>
 </details>
+
+## Section Guide
+- [(K1) Recall metrics used for testing](#532)
+- [(K2) Summarize the purposes, content, and audiences for test reports](#533)
+- [(K2) Exemplify how to communicate the status of testing](#534)

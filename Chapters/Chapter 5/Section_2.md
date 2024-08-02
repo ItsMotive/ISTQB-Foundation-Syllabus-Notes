@@ -10,3 +10,9 @@
     <li><a href="Section_5.md">Section 5</a></li>
   </ul>
 </details>
+
+## Section Guide
+- [(K1) Identify risk level by using risk likelihood and risk impact](#521)
+- [(K2) Distinguish between project risks and product risks](#522)
+- [(K2) Explain how product risk analysis may influence thoroughness and scope of testing](#523)
+- [(K2) Explain what measures can be taken in response to analyzed product risks](#524)
