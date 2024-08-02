@@ -24,6 +24,11 @@
   - How configuration management supports testing
   - How to report defects in a clear and understandable way
 
+- Knowledge Levels
+  - K1: Remember - You should remember/recognize a term or a concept
+  - K2: Understand - You should be able to select an explanation for a statement related to the question topic
+  - K3: Apply - You should select the correct application of a concept or technique and apply it to a given context.
+
 ## Learning Objectives
 - [(5.1) Test Planning](Section_1.md)
   - [(K2) Exemplify the purpose and content of a test plan](Section_1.md#511)
