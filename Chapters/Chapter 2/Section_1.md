@@ -151,7 +151,7 @@
     - CI/CD Tools must be introduced and maintained
     - Test automation required additional resources and may be difficult to establish and maintain
 
-  <a id=215></a>
+  <a id="215"></a>
 
   ## (2.1.5) Shift Left Approach
 
@@ -171,7 +171,7 @@
     - Completing static analysis of source code prior to dynamic testing, or as part of an automated process
     - Performing non-functional testing starting at the component test level, where possible
 
-  <a is=216></a>
+  <a id="216"></a>
 
   ## (2.1.6) Retrospectives and Process Improvement
 
