@@ -203,13 +203,12 @@
 <table width="100%">
 <tr>
     <td align="left">
-        <a href="#previous-section">Previous</a>
+        <a href="#previous-section" style="padding-right: 50px;">Previous</a>
     </td>
     <td align="right">
-        <a href="#next-section">Next</a>
+        <a href="#next-section" style="padding-left: 50px;">Next</a>
     </td>
 </tr>
 </table>
 
-&nbsp;
 ---
