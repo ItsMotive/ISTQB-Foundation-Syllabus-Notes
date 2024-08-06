@@ -34,7 +34,7 @@
 - Instead use \_\_\_\_ to focus test efforts:
   - [Test Techniques](/Chapters/Chapter%204/Chapter_4_Home.md)
   - [Test Case Prioritization](/Chapters/Chapter%205/Section_1.md#515)
-  - [Risk-Based Testing](/Chapters/Chapter%205/Chapter_2.md#52)
+  - [Risk-Based Testing](/Chapters/Chapter%205/Section_2.md#52)
 
 ### 3. Early testing saves time and money
 
