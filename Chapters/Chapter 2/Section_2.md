@@ -197,3 +197,12 @@
     - Regression Test Suites can run many times
     - Number of Regression Test Cases will increase with each iteration or release
     - Great candidate for Automation and should be done early
+
+---
+
+### Navigation
+
+- [Previous](#previous-section)
+- [Next](#next-section)
+
+---
