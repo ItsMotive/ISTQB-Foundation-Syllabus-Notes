@@ -218,7 +218,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0;">
     <a href="#previous-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Previous</a>
-    <div style="flex-grow: 1;"></div>
+    <div style="flex: 1;"></div>
     <a href="#next-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
 </div>
 
