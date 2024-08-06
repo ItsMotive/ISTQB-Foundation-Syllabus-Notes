@@ -173,7 +173,7 @@
 
     <a id=514></a>
     
-    ## Estimation Techniques
+    ## (5.1.4) in Estimation Techniques
     - Predicting the amount of test-related work needed to meet the objectives of a test project
     - Important to make it clear to stakeholders that the estimate is based on a  number of assumptions and is always subject ot estimation error
     - Estimation for small tasks are usually more accurate than for large tasks
@@ -237,7 +237,7 @@
             - Final Answer:
                 - 10 +- 2
         
-    <aa id=515></a>
+    <a id=515></a>
 
     ## (5.1.5) Test Case Prioritization
     - Test Cases and Test procedures are specified and assembled into Test Suites
