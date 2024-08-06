@@ -223,3 +223,10 @@
 </div>
 
 ---
+
+<EuiPagination
+  aria-label={paginationLabel}
+  pageCount={lowerThan5Number}
+  activePage={activePage}
+  onPageClick={(activePage) => goToPage(activePage)}
+/>
