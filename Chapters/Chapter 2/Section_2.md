@@ -205,7 +205,7 @@
     <td align="left">
         <a href="#previous-section" style="padding-right: 100px;">Previous</a>
     </td>
-    <td align = "center></td>
+    <td align = "center"></td>
     <td align="right">
         <a href="#next-section" style="padding-left: 100px;">Next</a>
     </td>
