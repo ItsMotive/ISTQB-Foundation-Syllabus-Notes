@@ -200,11 +200,15 @@
 
 ---
 
----
-
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-top: 1px solid #ddd;">
-    <a href="#previous-section" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Previous</a>
-    <a href="#next-section" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Next</a>
-</div>
+<table width="100%">
+<tr>
+    <td align="left">
+        <a href="#previous-section">Previous</a>
+    </td>
+    <td align="right">
+        <a href="#next-section">Next</a>
+    </td>
+</tr>
+</table>
 
 ---
