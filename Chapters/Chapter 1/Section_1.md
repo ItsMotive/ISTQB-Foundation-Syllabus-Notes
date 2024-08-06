@@ -24,7 +24,7 @@
 
 - Assesses Software Quality and helps reducing the risk of software failure.
 - Set of activities to find defects and evaluate the quality of software artifacts.
-- May be [Static](/Chapters/Chapter%202/Section_3.md) or [Dynamic](Chapter%204.md).
+- May be [Static](/Chapters/Chapter%202/Section_3.md) or [Dynamic](/Chapters/Chapter%204.md).
 - Is technical and needs to be properly [Planned, Managed, Estimated, Monitored, and Controlled](Chapter%205.md).
 - Is an intellectual activity, requiring testers to have specialized knowledge, use analytical skills, and apply critical thinking and systems thinking.
 - Uses [Tools](Chapter%206.md)
