@@ -72,3 +72,14 @@
   - **Subsequent Confirmation Testing** - Initial Tester checks whether the fixes resolved the problem.
   - **Subsequent Regression Testing** - Checks whether the fixes are causing failures in other parts of the test object. [(Section 2.2.3)](/Chapters/Chapter%202/Section_2.md#223)
   - With Static Testing, there is no need for reproduction or diagnosis, since it directly finds defects and cannot cause failures.
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+    <a href="Chapter_1_Home.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
+    <span style="flex-grow: 1;"></span>
+    <a>              </a>
+    <a href="Section_2.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
+</div>
+
+---
