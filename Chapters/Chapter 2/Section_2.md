@@ -217,9 +217,9 @@
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0;">
-    <a href="#previous-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Previous</a>
+    <a href="#previous-section" style="padding: 5px 50px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Previous</a>
     <span style="flex-grow: 1;"></span>
-    <a href="#next-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
+    <a href="#next-section" style="padding: 5px 50px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
 </div>
 
 ---
