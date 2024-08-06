@@ -49,3 +49,14 @@
   - [(K2) Give Examples of the Generic Skills Required for Testing](Section_5.md#151)
   - [(K1) Recall the Advantages of the Whole Team Approach](Section_5.md#152)
   - [(K2) Distinguish the Benefits and Drawbacks of Independence of Testing](Section_5.md#153)
+
+--- 
+
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+    <a href="/README.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
+    <span style="flex-grow: 1;"></span>
+    <a>              </a>
+    <a href="Section_1.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
+</div>
+
+---
