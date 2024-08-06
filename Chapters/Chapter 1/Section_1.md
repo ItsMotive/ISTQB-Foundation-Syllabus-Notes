@@ -70,5 +70,5 @@
     - Fixing the cause
 
   - **Subsequent Confirmation Testing** - Initial Tester checks whether the fixes resolved the problem.
-  - **Subsequent Regression Testing** - Checks whether the fixes are causing failures in other parts of the test object. [(Section 2.2.3)](Chapter%202.md#223)
+  - **Subsequent Regression Testing** - Checks whether the fixes are causing failures in other parts of the test object. [(Section 2.2.3)](/Chapters/Chapter%202/Section_2.md#223)
   - With Static Testing, there is no need for reproduction or diagnosis, since it directly finds defects and cannot cause failures.
