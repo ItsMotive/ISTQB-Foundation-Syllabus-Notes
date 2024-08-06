@@ -200,7 +200,7 @@
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
-    <a href="Chapter_Home.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
+    <a href="Chapter_2_Home.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
     <span style="flex-grow: 1;"></span>
     <a>              </a>
     <a href="Section_2.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
