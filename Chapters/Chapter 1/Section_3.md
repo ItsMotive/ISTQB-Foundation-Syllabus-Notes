@@ -32,9 +32,9 @@
 
 - Testing everything is not feasible except in trivial cases.
 - Instead use \_\_\_\_ to focus test efforts:
-  - [Test Techniques](Chapter%204.md)
-  - [Test Case Prioritization](Chapter%205#515)
-  - [Risk-Based Testing](Chapter%205#52)
+  - [Test Techniques](/Chapters/Chapter%204/Chapter_4_Home.md)
+  - [Test Case Prioritization](/Chapters/Chapter%205/Section_1.md#515)
+  - [Risk-Based Testing](/Chapters/Chapter%205/Chapter_2.md#52)
 
 ### 3. Early testing saves time and money
 
@@ -67,3 +67,14 @@
   - System fulfills users' needs and expectations
   - Achieve customer's business goals
 - Verification and Validation should both be done.
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+    <a href="Section_2.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
+    <span style="flex-grow: 1;"></span>
+    <a>              </a>
+    <a href="Section_4.md" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
+</div>
+
+---
