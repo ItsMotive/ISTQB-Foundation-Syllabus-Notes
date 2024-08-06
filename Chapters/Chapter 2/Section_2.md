@@ -84,6 +84,8 @@
 
   - Most test activities can be performed at every test level
 
+  <a id=221></a>
+
   ## (2.2.1) Test Levels
 
   - To avoid overlapping of Test Activities, Test Levels are distinguished by a list of attributes:
@@ -220,13 +222,4 @@
     <a href="#previous-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; margin-right: auto; border-radius: 5px;">Previous</a>
     <span style="flex-grow: 1;"></span>
     <a href="#next-section" style="padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Next</a>
-</div>
-
----
-
-<EuiPagination
-  aria-label={paginationLabel}
-  pageCount={lowerThan5Number}
-  activePage={activePage}
-  onPageClick={(activePage) => goToPage(activePage)}
-/>
+</
