@@ -27,7 +27,7 @@
 - May be [Static](/Chapters/Chapter%203/Chapter_3_Home.md) or Dynamic to [derive Test Cases](/Chapters/Chapter%204/Chapter_4_Home.md).
 - Is technical and needs to be properly [Planned, Managed, Estimated, Monitored, and Controlled](/Chapters/Chapter%205/Chapter_5_Home.md).
 - Is an intellectual activity, requiring testers to have specialized knowledge, use analytical skills, and apply critical thinking and systems thinking.
-- Uses [Tools](Chapter%206.md)
+- Uses [Tools](/Chapters/Chapter%206/Chapter_6_Home.md)
 
   <a id="111"></a>
 
