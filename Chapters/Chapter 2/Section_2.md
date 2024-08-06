@@ -200,39 +200,11 @@
 
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .footer-box {
-            background-color: #f1f1f1;
-            border-top: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .footer-box a {
-            color: #007bff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        .footer-box a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+---
 
-    <!-- Your content here -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-top: 1px solid #ddd;">
+    <a href="#previous-section" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Previous</a>
+    <a href="#next-section" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Next</a>
+</div>
 
-    <div class="footer-box">
-        <a href="#previous-section">Previous</a> | 
-        <a href="#next-section">Next</a>
-    </div>
-
-</body>
-</html>
+---
