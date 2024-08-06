@@ -21,3 +21,9 @@
     - Static Testing Basics
     - Feedback Process
     - Review Process
+
+## Learning Objectives
+- [(6.1) Tool Support for Testing](Section_1.md)
+  - [(K2) Explain how different types of test tools support testing](Section_1.md)
+- [(6.2) Benefits and Risks of Test Automation](Section_2.md)
+  - [(K1) Recall the benefits and risks of test automation](Section_2.md)
