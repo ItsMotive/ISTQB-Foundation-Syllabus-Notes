@@ -41,4 +41,3 @@
   - Retirement of a system
     - Testing of data archiving if long late-retention periods are required.
     - Testing of restore and retrieval procedures after archiving
-  
