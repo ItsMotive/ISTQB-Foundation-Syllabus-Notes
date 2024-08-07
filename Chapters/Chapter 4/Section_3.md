@@ -29,20 +29,7 @@
   - Mission-Critical Environments
   - High-Integrity Environments
 
-  <a id=431></a>
-
-  ## Statement Testing and Statement Coverage
-
-  - Popular and Simple
-  - Code-Related White-Box Test Techniques:
-    - Statement Testing
-    - Branch Testing
-  - More rigorous testing techniques are used in \_\_\_\_ for more thorough code coverage
-    - Safety-Critical Environments
-    - Mission-Critical Environments
-    - High-Integrity Environments
-
-  <a id=431></a>
+  <a id="431"></a>
 
   ## (4.3.1) Statement Testing and Statement Coverage
 
@@ -63,7 +50,7 @@
       - 100% Coverage does not guarantee all decision logics have been tested
         - May not exercise all branches
 
-  <a id=432></a>
+  <a id="432"></a>
 
   ## Branch Testing and Branch Coverage
 

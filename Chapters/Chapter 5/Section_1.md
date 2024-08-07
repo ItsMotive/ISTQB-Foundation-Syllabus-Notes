@@ -20,13 +20,13 @@
 - [(K1) Recall the concepts of the test pyramid](#516)
 - [(K2) Summarize the testing quadrants and their relationships with test levels and test types](#517)
 
-<a id=51></a>
+<a id="51"></a>
 
 ## Test Planning
 
 - Test Planning
 
-    <a id=511></a>
+    <a id="511"></a>
     
     ## (5.1.1) Purpose and Content of a Test Plan
     - Test plan describes ____ for a test project:
@@ -91,7 +91,7 @@
             - Budget
             - Schedule
 
-    <a id=512></a>
+    <a id="512"></a>
 
     ## (5.1.2) Tester's Contribution to Iteration and Release Planning
     - In Iterative SDLC's, there are two types of planning:
@@ -120,7 +120,7 @@
             - Estimate test effort for all testing tasks
             - Identify and Refine functional and non-functional aspects of the test object
 
-    <a id=513></a>
+    <a id="513"></a>
 
     ## (5.1.3) Entry Criteria and Exit Criteria
     - Both Entry and Exit Criteria should be defined for each test level
@@ -171,7 +171,7 @@
         - Entry Criteria is known as **Definition of Ready**
             - Criteria that must be fulfilled to start the development and/or testing activities
 
-    <a id=514></a>
+    <a id="514"></a>
     
     ## Estimation Techniques
     - Predicting the amount of test-related work needed to meet the objectives of a test project
@@ -216,6 +216,7 @@
 
         ## Three-Point Estimation
         - Expert-Based Technique
+        - Estimation is based on a single test case
         - Three estimations are made by experts:
             - Most Optimistic (A)
             - Most Likely (M)
@@ -231,13 +232,16 @@
             - Estimation: 
                 - E = (6 + (4 * 9) + 18) / 6
                 - E = 10
+            - Estimation for 4 test cases:
+                - E = 10 * 4
+                - E = 40
             - Measurement Error:
                 - SD = (18 - 6) / 6
                 - SD = 2
             - Final Answer:
                 - 10 +- 2
         
-    <aa id=515></a>
+    <aa id="515"></a>
 
     ## (5.1.5) Test Case Prioritization
     - Test Cases and Test procedures are specified and assembled into Test Suites
@@ -270,7 +274,7 @@
         - Required Test Environments
         - Required People that may only be available for a specific time window
 
-    <a id=516></a>
+    <a id="516"></a>
     
     ## (5.1.6) Test Pyramid
     - Model that shows different tests may have different granularity (level of detail)
@@ -304,7 +308,7 @@
                 - End-to-End Tests
             - [Other Test Levels](/Chapters/Chapter%202/Section_2.md#221) can be used
     
-    <a id=517></a>
+    <a id="517"></a>
 
     ## (5.1.7) Testing Quadrants
     - With Agile, Testing Quadrants are grouped by the test levels with the appropriate:

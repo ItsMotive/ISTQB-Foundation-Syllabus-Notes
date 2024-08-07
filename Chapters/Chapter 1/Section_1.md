@@ -29,7 +29,7 @@
 - Is an intellectual activity, requiring testers to have specialized knowledge, use analytical skills, and apply critical thinking and systems thinking.
 - Uses [Tools](Chapter%206.md)
 
-  <a id="111"></a>
+  <a id=111></a>
 
   ## (1.1.1) Test Objectives
 

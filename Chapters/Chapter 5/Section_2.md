@@ -53,6 +53,7 @@
     - These factors express the risk level
       - Measure for the risk
       - Higher the risk level, the more important is its treatment
+    - Risk Level = Risk Impact * Risk Likelihood
     
   <a id=522></a>
 

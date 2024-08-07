@@ -73,7 +73,7 @@
     - Applies to development and testing processes
     - Responsibility of everyone on the project
 
-  <a id="123"></a>
+  <a id=123></a>
 
   ## (1.2.3) Errors, Defects, Failures, and Root Causes
 

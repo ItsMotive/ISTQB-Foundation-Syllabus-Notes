@@ -22,7 +22,7 @@
 - Sections [4.1](Section_1.md), [4.3](Section_3.md), [4.4](Section_4.md) techniques have a particular objective with respect to defect detection
 - On the other hand Collaboration-Based approaches also focus on defect avoidance by collaboration and communication
 
-  <a id=451></a>
+  <a id="451"></a>
 
   ## (4.5.1) Collaborative User Story Writing
   - **User Story**
@@ -89,7 +89,7 @@
       - Bullet point verification list
       - Tabulated form of Input-Output Mapping
 
-  <a id=453></a>
+  <a id="453"></a>
   ## (4.5.3) Acceptance Test-Driven Development (ATDD)
   - A [Test-First Approach](/Chapters/Chapter%202/Section_1.md#213)
   - Test cases are created:

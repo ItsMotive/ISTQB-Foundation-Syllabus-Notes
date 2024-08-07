@@ -16,7 +16,7 @@
 - [(K2) Explain exploratory testing](#442)
 - [(K2) Explain checklist-based testing](#443)
 
-<a id=44></a>
+<a id="44"></a>
 
 ## (4.4) Experience-Based Test Techniques
 - Commonly used techniques:
@@ -24,7 +24,7 @@
   - Exploratory Testing
   - Checklist-Based Testing
 
-  <a id=441></a>
+  <a id="441"></a>
   
   ## (4.4.1) Error Guessing
   - Used to anticipate the occurrence of errors, defects, and failures, based on tester's knowledge:
@@ -69,7 +69,7 @@
       - Defect and Failure data
       - Common knowledge about why software fails
 
-  <a id=442></a>
+  <a id="442"></a>
 
   ## (4.4.2) Exploratory Testing
   

@@ -17,7 +17,7 @@
 - [(K3) Use decision table testing to derive test cases](#423)
 - [(K3) Use state transition testing to derive test cases](#424)
 
-<a id=42></a>
+<a id="42"></a>
 
 ## (4.2) Black-Box Test Techniques
 - Commonly used techniques:
@@ -26,7 +26,7 @@
     - Decision Table Testing
     - State Transition Testing
 
-    <a id=421></a>
+    <a id="421"></a>
 
     ## (4.2.1) Equivalence Partitioning
     - Divides data into partitions

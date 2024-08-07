@@ -95,6 +95,7 @@
     - Developers losing sense of Responsibility of Quality
     - Testers being considered as bottlenecks
     - Testers being blamed for delays in release
+    
   - Benefits of Independent Testers:
     - Testers are more likely to find different kinds of failures/defects
       - Due to different backgrounds, technical perspectives, and biases

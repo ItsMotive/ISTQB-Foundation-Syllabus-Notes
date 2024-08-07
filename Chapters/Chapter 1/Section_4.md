@@ -67,7 +67,7 @@
     - Defining test data requirements.
     - Designing test environment.
     - Identifying other required infrastructure and tools.
-    - [Testing Techniques](Chapter%204.md) can support test designing.
+    - [Testing Techniques](/Chapters/Chapter%204/Chapter_4_Home.md) can support test designing.
     - Answers the question, "How to test?"
 
     ### Test Implementation
