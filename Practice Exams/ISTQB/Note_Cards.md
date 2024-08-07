@@ -455,13 +455,7 @@ details summary {
 
   - Used for testing implementation of system requirements that specify how different combinations of conditions result in different outcomes
   - Effective way of recording complex logic, such as business rules
-  - Full decision table has enough columns to cover every combination of conditions
-  - Table can be simplified by:
-    - Deleting columns containing infeasible combinations of conditions
-    - Merging columns where conditions do not affect the outcome into a single column
-    - Minimization algorithms are out of scope of syllabus
-  - Coverage items are the columns containing feasible combinations of conditions
-  
+  - Full decision table has enough columns to cover every combination of conditions  
   - Provides systematic approach to identify all combinations of conditions where some might be overlooked
   - Helps find any gaps or contradictions in the requirements
   - If there are many conditions:
@@ -470,6 +464,15 @@ details summary {
     - Reduce the number of rules that need to be exercised
     - Minimized decision table
     - Risk-Based approach
+
+</details>
+
+<details>
+  <summary><strong>Decision Table can be simplified by</strong></summary>
+
+- Deleting columns containing infeasible combinations of conditions
+- Merging columns where conditions do not affect the outcome into a single column
+- Minimization algorithms are out of scope of syllabus
 
 </details>
 
