@@ -477,7 +477,7 @@ details summary {
 </details>
 
 <details>
-  <summary>Achieving 100% Coverage</summary> 
+  <summary><strong>Achieving 100% Coverage</strong></summary> 
 
 - Test cases must exercise all these columns
 - Number of exercised columns
@@ -487,7 +487,7 @@ details summary {
 </details>
 
 <details>
-  <summary>Decision Table Notation for Conditions</summary> 
+  <summary><strong>Decision Table Notation for Conditions</strong></summary> 
 
 - **"T"** : True - Condition satisfied
 - **"F"** : False - Condition is not satisfied
@@ -497,7 +497,7 @@ details summary {
 </details>
 
 <details>
-  <summary>Decision Table Notation for Actions</summary> 
+  <summary><strong>Decision Table Notation for Actions</strong></summary> 
 
 - **"X"** : Action should occur
 - **"Blank"** : Action should not occur
@@ -506,14 +506,14 @@ details summary {
 </details>
 
 <details>
-  <summary>Decision Table Rows</summary> 
+  <summary><strong>Decision Table Rows</strong></summary> 
 
 - Conditions and resulting actions of the system are defined
 
 </details>
 
 <details>
-  <summary>Decision Table Columns</summary> 
+  <summary><strong>Decision Table Columns</strong></summary> 
 
 - Corresponds to a decision rule that defines a unique combination of conditions
 - Along with associated actions
@@ -521,14 +521,14 @@ details summary {
 </details>
 
 <details>
-  <summary>Limited-Entry Decision Table</summary> 
+  <summary><strong>Limited-Entry Decision Table</strong></summary> 
 
 - All values of the conditions and actions (except for irrelevant or infeasible ones) are shown as Boolean values (True or False)
 
 </details>
 
 <details>
-  <summary>Extended-Entry Decision Table</summary> 
+  <summary><strong>Extended-Entry Decision Table</strong></summary> 
 
 - Some or all conditions or actions may take on multiple values:
   - Ranges of numbers
@@ -546,63 +546,105 @@ details summary {
 <details>
   <summary><strong>State Transition Testing</strong></summary>
 
-  - **State Transition Diagram** 
-    - Models the behavior of a system by showing its possible states and valid state transitions
-    - Transition is initiated by an event:
-      - May be additionally qualified by a guard condition
-    - Transitions are assumed to be instantaneous and may sometimes result in the software taking action
-    - Common Transition Labeling:
-      - "Event [guard condition] / Action"
-    - Guard conditions and actions can be omitted if they do not exist or are irrelevant for the tester
-    
-  - **Stable Table**
-    - Equivalent Model to State Transition Diagram
-    - **Rows** represent states
-    - **Columns** represent events (together with guard conditions if they exist)
-    - **Table Entries (Cells)** represent transitions and contain:
-      - Target State
-      - Resulting Actions, if defined
-    - In contrast to Transition Diagram, State Table explicitly shows invalid transitions:
-      - Represented by empty cells
-
   - Test case based on a State Transition Diagram or Stable Table is usually represented as a sequence of events:
     - Results in a sequence of state changes (and actions if necessary)
   - One test case may, and usually will, cover several transitions between states
   - There are many coverage criteria for state transition testing
 
-  - **All States Coverage**
-    - Coverage items are the states
-    - Achieving 100% Coverage:
-      - Test cases must ensure all states are visited
-      - Number of visited states
-      - Divided by the total number of states
-      - Expressed as a percentage
+</details>
 
-  - **Valid Transitions Coverage**
-    - Also called 0-Switch Coverage
-    - Coverage items are single valid transitions
-    - Achieving 100% Coverage:
-      - Test cases must exercise all the valid transitions
-      - Number of exercised valid transitions
-      - Divided by the total number of valid transitions
-      - Expressed as a percentage
+<details>
+  <summary><strong>State Transition Diagram</strong></summary>
 
-  - **All Transitions Coverage**
-    - Coverage items are all transitions shown in a State Table
-    - Testing only one invalid transition in a single test case helps to avoid fault masking:
-      - Situation in which one defect prevents the detection of another
-    - Achieving 100% Coverage:
-      - Test cases must exercise all the valid transitions and attempt to execute invalid transitions
-      - Number of valid and invalid transitions exercised or attempted to be covered by executed test cases
-      - Divided by the total number of valid and invalid transitions
-      - Expressed as a percentage
+- Models the behavior of a system by showing its possible states and valid state transitions
+- Transition is initiated by an event:
+  - May be additionally qualified by a guard condition
+- Transitions are assumed to be instantaneous and may sometimes result in the software taking action
+- Common Transition Labeling:
+  - "Event [guard condition] / Action"
+- Guard conditions and actions can be omitted if they do not exist or are irrelevant for the tester
 
-  - **All States Coverage** is weaker than **Valid Transitions Coverage**:
-    - Due to it typically being able to achieve without exercising all the transitions
-  - **Valid Transitions** is the most widely used coverage criterion
-  - Achieving full **Valid Transition Coverage** guarantees full **All States Coverage**
-  - Achieving full **All Transitions Coverage** guarantees both full **All States Coverage** and full **Valid Transitions Coverage**:
-    - Should be a minimum requirement for mission and safety-critical software
+</details>
+
+<details>
+  <summary><strong>Stable Table</strong></summary>
+
+- Equivalent Model to State Transition Diagram
+- In contrast to Transition Diagram, State Table explicitly shows invalid transitions:
+  - Represented by empty cells
+
+</details>
+
+<details>
+  <summary><strong>Stable Table Rows</strong></summary>
+
+- Represent states
+
+</details>
+
+<details>
+  <summary><strong>Stable Table Columns</strong></summary>
+
+- Represent events (together with guard conditions if they exist)
+
+</details>
+
+<details>
+  <summary><strong>Stable Table Entries (Cells)</strong></summary>
+
+- Represent transitions and contain:
+  - Target State
+  - Resulting Actions, if defined
+
+</details>
+
+<details>
+  <summary><strong>All States Coverage</strong></summary>
+
+- Coverage items are the states
+- Achieving 100% Coverage:
+  - Test cases must ensure all states are visited
+  - Number of visited states
+  - Divided by the total number of states
+  - Expressed as a percentage
+</details>
+
+<details>
+  <summary><strong>Valid Transitions Coverage</strong></summary>
+
+- Also called 0-Switch Coverage
+- Coverage items are single valid transitions
+- Achieving 100% Coverage:
+  - Test cases must exercise all the valid transitions
+  - Number of exercised valid transitions
+  - Divided by the total number of valid transitions
+  - Expressed as a percentage
+
+</details>
+
+<details>
+  <summary><strong>All Transitions Coverage</strong></summary>
+
+- Coverage items are all transitions shown in a State Table
+- Testing only one invalid transition in a single test case helps to avoid fault masking:
+  - Situation in which one defect prevents the detection of another
+- Achieving 100% Coverage:
+  - Test cases must exercise all the valid transitions and attempt to execute invalid transitions
+  - Number of valid and invalid transitions exercised or attempted to be covered by executed test cases
+  - Divided by the total number of valid and invalid transitions
+  - Expressed as a percentage
+
+</details>
+
+<details>
+  <summary><strong>Coverage</strong></summary>
+
+- **Valid Transitions** is the most widely used coverage criterion
+- **All States Coverage** is weaker than **Valid Transitions Coverage**:
+  - Due to it typically being able to achieve without exercising all the transitions
+- Achieving full **Valid Transition Coverage** guarantees full **All States Coverage**
+- Achieving full **All Transitions Coverage** guarantees both full **All States Coverage** and full **Valid Transitions Coverage**:
+  - Should be a minimum requirement for mission and safety-critical software
 
 </details>
 
