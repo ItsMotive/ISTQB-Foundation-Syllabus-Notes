@@ -328,9 +328,6 @@ details summary {
 
   - Can detect defects in the earliest phases of SDLC
   - Identify defects not found in Dynamic Testing
-    - Unreachable Code
-    - Design Patterns not implemented as desired
-    - Defects in non-executable work products
   - Provides ability to evaluate the quality of Work Products
   - Provides build confidence in Work Products
   - Verifies documented requirements, so stakeholders can make sure requirements meet actual needs
@@ -339,10 +336,27 @@ details summary {
   - Reviews may be more costly to implement, but overall project costs are much lower than with no reviews
     - Due to less time and effort necessary for fixing defects later
   - Code defects can be detected using Static Analysis more efficiently than Dynamic Testing
-    - Fewer Code Defects
-    - Lower overall Development effort
 
 </details>
+
+<details>
+  <summary><strong>Defects not found in Dynamic Testing</strong></summary>
+
+- Unreachable Code
+- Design Patterns not implemented as desired
+- Defects in non-executable work products
+
+</details>
+
+<details>
+  <summary><strong>Static vs Dynamic Testing: Detecting Code Defects</strong></summary>
+
+- Code defects can be detected using Static Analysis more efficiently than Dynamic Testing
+  - Fewer Code Defects
+  - Lower overall Development effort
+
+</details>
+
 
 <!-- #endregion -->
 
@@ -655,24 +669,29 @@ details summary {
 ## Statement Testing and Statement Coverage [(4.3.1)](/Chapters/Chapter%204/Section_3.md#431)
 
 <details>
-  <summary><strong>Statement Testing and Statement Coverage</strong></summary>
+  <summary><strong>Statement Testing</strong></summary>
 
-  - **Statement Testing**
-    - Coverage items are executable statements
-    - Design test cases that exercise statements in the code until an acceptable level of coverage is achieved
-    - Coverage is measured as:
-      - The number of statements exercised by the test cases
-      - Divided by the total number of executable statements in the code
-      - Expressed as a percentage
-    - When 100% coverage is achieved:
-      - Ensures all executable statements in the code have been tested at least once
-      - Each statement with a defect has been executed:
-        - May cause failure in detecting the presence of defect
-      - Exercising a statement with a test case will not detect defects in **ALL** cases:
-        - Data Dependent statements:
-          - Division by zero
-      - 100% Coverage does not guarantee all decision logics have been tested:
-        - May not exercise all branches
+- Coverage items are executable statements
+- Design test cases that exercise statements in the code until an acceptable level of coverage is achieved
+- Coverage is measured as:
+  - The number of statements exercised by the test cases
+  - Divided by the total number of executable statements in the code
+  - Expressed as a percentage
+
+</details>
+
+<details>
+  <summary><strong>Statement Coverage</strong></summary>
+
+- When 100% coverage is achieved:
+  - Ensures all executable statements in the code have been tested at least once
+  - Each statement with a defect has been executed:
+    - May cause failure in detecting the presence of defect
+  - Exercising a statement with a test case will not detect defects in **ALL** cases:
+    - Data Dependent statements:
+      - Division by zero
+- 100% Coverage does not guarantee all decision logics have been tested:
+  - May not exercise all branches
 
 </details>
 
@@ -683,33 +702,41 @@ details summary {
 ## Branch Testing and Branch Coverage [(4.3.2)](/Chapters/Chapter%204/Section_3.md#432)
 
 <details>
-  <summary><strong>Branch Testing and Branch Coverage</strong></summary>
+  <summary><strong>What is a Branch</strong></summary>
 
-  - **Branch**
-    - Transfer of control between 2 nodes in control graph
-    - Shows possible sequences in which source code statements are executed in the test object
-    - Transfer of control can be:
-      - Unconditional (Straight-Line Code)
-      - Conditional (Decision outcome)
+- Transfer of control between 2 nodes in control graph
+- Shows possible sequences in which source code statements are executed in the test object
+- Transfer of control can be:
+  - Unconditional (Straight-Line Code)
+  - Conditional (Decision outcome)
 
-  - **Branch Testing**
-    - Coverage items are branches
-    - Design test cases to exercise branches in the code until an acceptable level of coverage is achieved
-    - Coverage is measured as:
-      - Number of branches exercised by the test cases
-      - Divided by the total number of branches
-      - Expressed as a percentage
+</details>
 
-  - **100% Branch Coverage**
-    - All branches in the code, unconditional and conditional, are exercised by test cases
-    - Conditional branches typically correspond to a true or false outcome:
-      - "If...Then" Decision
-      - A Switch/Case Statement
-      - Decision to exit or continue loop
-    - Exercising a branch with a test case will not detect defects in all cases:
-      - May not detect defects requiring the execution of a specific path in the code
-    - Branch coverage subsumes statement coverage:
-      - Any set of test cases achieving 100% **Branch Coverage** also achieves 100% **Statement Coverage**, but not vice versa
+<details>
+  <summary><strong>Branch Testing</strong></summary>
+
+- Coverage items are branches
+- Design test cases to exercise branches in the code until an acceptable level of coverage is achieved
+- Coverage is measured as:
+  - Number of branches exercised by the test cases
+  - Divided by the total number of branches
+  - Expressed as a percentage
+
+</details>
+
+<details>
+  <summary><strong>Branch Coverage</strong></summary>
+
+- **100% Branch Coverage**
+  - All branches in the code, unconditional and conditional, are exercised by test cases
+  - Conditional branches typically correspond to a true or false outcome:
+    - "If...Then" Decision
+    - A Switch/Case Statement
+    - Decision to exit or continue loop
+  - Exercising a branch with a test case will not detect defects in all cases:
+    - May not detect defects requiring the execution of a specific path in the code
+- Branch coverage subsumes statement coverage:
+  - Any set of test cases achieving 100% **Branch Coverage** also achieves 100% **Statement Coverage**, but not vice versa
 
 </details>
 
@@ -720,28 +747,36 @@ details summary {
 ## The Value of White-Box Testing [(4.3.3)](/Chapters/Chapter%204/Section_3.md#433)
 
 <details>
+  <summary><strong>Fundamental Strength of White-Box Testing</strong></summary>
+
+- Entire software implementation is taken into account during testing
+- Facilitates defect detection even when software specification is vague, outdated, or incomplete
+
+</details>
+
+<details>
+  <summary><strong>Weakness of White-Box Testing</strong></summary>
+
+- If the software does not implement one or more requirements, White-Box Testing may not detect the resulting defects of omission
+
+</details>
+
+<details>
   <summary><strong>The Value of White-Box Testing</strong></summary>
 
-  - **Fundamental Strength**
-    - Entire software implementation is taken into account during testing
-    - Facilitates defect detection even when software specification is vague, outdated, or incomplete
+- Can be used in Static Testing
+  - During dry runs of code
 
-  - **Weakness**
-    - If the software does not implement one or more requirements, White-Box Testing may not detect the resulting defects of omission
+- Well suited to reviewing code that is not yet ready for:
+  - Execution
+  - Pseudocode
+  - High-Level or Top-Down Logic which can be modeled with a control flow graph
 
-  - Can be used in Static Testing
-    - During dry runs of code
-
-  - Well suited to reviewing code that is not yet ready for:
-    - Execution
-    - Pseudocode
-    - High-Level or Top-Down Logic which can be modeled with a control flow graph
-
-  - Only Black-Box Testing does not provide a measure of actual code coverage
-  - White-Box Coverage measures provide an objective measurement of coverage:
-    - Provides the necessary information to allow additional tests to be generated for:
-      - Increase of coverage
-      - Increase of confidence in the code
+- Only Black-Box Testing does not provide a measure of actual code coverage
+- White-Box Coverage measures provide an objective measurement of coverage:
+  - Provides the necessary information to allow additional tests to be generated for:
+    - Increase of coverage
+    - Increase of confidence in the code
 
 </details>
 
@@ -759,6 +794,11 @@ details summary {
     - Type of errors developers tend to make
     - Type of defects from errors
     - Types of failures that have occurred in other, similar applications
+
+</details>
+
+<details>
+  <summary><strong>Error, Defects, and Failures are related to</strong></summary>
 
   - Generally, errors, defects, and failures may be related to:
     - **Input**
@@ -779,25 +819,34 @@ details summary {
     - **Data**
       - Incorrect initialization
       - Wrong type
-  
-  - Fault attacks are a methodical approach to the implementation of error guessing
-  - Technique requires tester to create or acquire a list of possible:
-    - Errors
-    - Defects
-    - Failures
-
-    - The list will help:
-      - Identify defects associated with the errors
-      - Expose the defects
-      - Cause the failures
-
-    - List can be built based on:
-      - Experience 
-      - Defect and Failure data
-      - Common knowledge about why software fails
 
 </details>
 
+<details>
+  <summary><strong>Fault Attacks</strong></summary>
+  
+- Fault attacks are a methodical approach to the implementation of error guessing
+- Technique requires tester to create or acquire a list of possible:
+  - Errors
+  - Defects
+  - Failures
+
+</details>
+
+<details>
+  <summary><strong>Fault Attack List</strong></summary>
+
+- The list will help:
+  - Identify defects associated with the errors
+  - Expose the defects
+  - Cause the failures
+
+- List can be built based on:
+  - Experience 
+  - Defect and Failure data
+  - Common knowledge about why software fails
+
+</details>
 
 <!-- #endregion -->
 
@@ -808,53 +857,76 @@ details summary {
 <details>
   <summary><strong>Entry Criteria and Exit Criteria</strong></summary>
 
-  - Both Entry and Exit Criteria should be defined for each test level
-  - Both will differ based on the test objectives
+- Both Entry and Exit Criteria should be defined for each test level
+- Both will differ based on the test objectives
 
-  - **Entry Criteria**
-    - Defines the preconditions for undertaking a given activity
-    - If it is not met, it is likely that the activity will prove to be more:
-      - Difficult
-      - Time-Consuming
-      - Costly
-      - Risky
-    - Typical Entry Criteria:
-      - **Availability of Resources**
-        - People
-        - Tools
-        - Environments
-        - Test Data
-        - Budget
-        - Time
-      - **Availability of Software**
-        - Test Basis
-        - Testable Requirements
-        - User Stories
-        - Test Cases
-      - **Initial Quality Level of a Test Object**
-        - All Smoke Tests have passed
+</details>
+
+<details>
+  <summary><strong>Entry Criteria</strong></summary>
+
+- Defines the preconditions for undertaking a given activity
+- If it is not met, it is likely that the activity will prove to be more:
+  - Difficult
+  - Time-Consuming
+  - Costly
+  - Risky
+
+
+</details>
+
+<details>
+  <summary><strong>Typical Entry Criteria</strong></summary>
+
+- **Availability of Resources**
+  - People
+  - Tools
+  - Environments
+  - Test Data
+  - Budget
+  - Time
+- **Availability of Software**
+  - Test Basis
+  - Testable Requirements
+  - User Stories
+  - Test Cases
+- **Initial Quality Level of a Test Object**
+  - All Smoke Tests have passed
+
+</details>
+
+<details>
+  <summary><strong>Exit Criteria</strong></summary>
         
-  - **Exit Criteria**
-    - Defines what must be achieved in order to declare an activity completed
-    - Typical Exit Criteria:
-      - **Measures of Thoroughness**
-        - Achieved level of Coverage
-        - Number of Unresolved Defects
-        - Defect Density
-        - Number of Failed Test Cases
-      - **Completion Criteria**
-        - Planned Tests have been executed
-        - Static Testing has be performed
-        - All defects found are reported
-        - All Regression Tests are automated
-      - **Running out of time or budget**
-    - If stakeholders have reviewed and accepted the risks to go live, all Exit Criteria do not need to be satisfied
+- Defines what must be achieved in order to declare an activity completed
+- If stakeholders have reviewed and accepted the risks to go live, all Exit Criteria do not need to be satisfied
 
-  - **Agile Software Development**
-    - Exit Criteria is known as **Definition of Done**
-      - Defines the team's objective metrics for a releasable item
-    - Entry Criteria is known as **Definition of Ready**
-      - Criteria that must be fulfilled to start the development and/or testing activities
+</details>
+
+<details>
+  <summary><strong>Typical Exit Criteria</strong></summary>
+
+- **Measures of Thoroughness**
+  - Achieved level of Coverage
+  - Number of Unresolved Defects
+  - Defect Density
+  - Number of Failed Test Cases
+- **Completion Criteria**
+  - Planned Tests have been executed
+  - Static Testing has be performed
+  - All defects found are reported
+  - All Regression Tests are automated
+- **Running out of time or budget**
+
+</details>
+
+<details>
+  <summary><strong>Within Agile Software Development</strong></summary>
+
+- Exit Criteria is known as **Definition of Done**
+  - Defines the team's objective metrics for a releasable item
+- Entry Criteria is known as **Definition of Ready**
+  - Criteria that must be fulfilled to start the development and/or testing activities
 
 </details>
 
@@ -865,68 +937,93 @@ details summary {
 ## Estimation Techniques [(5.1.4)](/Chapters/Chapter%205/Section_1.md#514)
 
 <details>
-  <summary><strong>Estimation Techniques</strong></summary>
+  <summary><strong>Estimation Technique</strong></summary>
 
-  - **Estimation Overview**
-    - Predicting the amount of test-related work needed to meet the objectives of a test project
-    - Important to clarify to stakeholders that the estimate is based on several assumptions and is subject to estimation error
-    - Estimation for small tasks is usually more accurate than for large tasks
-    - For large tasks, decompose into smaller tasks and estimate those
+- **Estimation Overview**
+  - Predicting the amount of test-related work needed to meet the objectives of a test project
+  - Important to clarify to stakeholders that the estimate is based on several assumptions and is subject to estimation error
+  - Estimation for small tasks is usually more accurate than for large tasks
+  - For large tasks, decompose into smaller tasks and estimate those
 
-  - **Estimation based on Ratios**
-    - **Metrics-Based Technique**
-      - Figures collected from previous projects within the organization
-        - Allows deriving "standard" ratios for similar projects
-      - Best source for estimation is historical data from the organization
-        - Example:
-          - Previous Project Development-to-Test Effort ratio was 3:2
-          - Current Project Development Effort is 600 person-days
-          - Test Estimate = 400 person-days
-            - Calculation: 600 / 3 = 200, 200 * 2 = 400
+</details>
 
-  - **Extrapolation**
-    - **Metrics-Based Technique**
-      - Measurements are made early in the project to gather data
-      - Effort required for the remaining work is approximated by extrapolating this data
-        - Usually with a mathematical model
-      - Suitable for Iterative SDLCs
-        - Example:
-          - Extrapolate test effort for the next iteration as the average effort from the last three iterations
+<details>
+  <summary><strong>Estimation based on Ratios</strong></summary>
 
-  - **Wideband Delphi**
-    - **Iterative, Expert-Based Technique**
-      - Experts make experience-based estimations
-      - Experts estimate effort in isolation
-      - Results are collected, and if deviations are out of agreed boundaries, experts discuss and re-estimate
-      - Repeated until consensus is achieved
+- **Metrics-Based Technique**
+- Figures collected from previous projects within the organization
+  - Allows deriving "standard" ratios for similar projects
+- Best source for estimation is historical data from the organization
+  - Example:
+    - Previous Project Development-to-Test Effort ratio was 3:2
+    - Current Project Development Effort is 600 person-days
+    - Test Estimate = 400 person-days
+      - Calculation: 600 / 3 = 200, 200 * 2 = 400
 
-    - **Planning Poker**
-      - Variant of Wideband Delphi
-      - Commonly used in Agile Software Development
-      - Estimates made using cards with numbers representing effort size
+</details>
 
-  - **Three-Point Estimation**
-    - **Expert-Based Technique**
-      - Estimation is based on a single test case
-      - Experts provide three estimations:
-        - Most Optimistic (A)
-        - Most Likely (M)
-        - Most Pessimistic (B)
-      - Final Estimate (E) = (A + 4*M + B) / 6
-      - Allows calculation of measurement error
-        - SD = (B - A) / 6
+<details>
+  <summary><strong>Extrapolation Technique</strong></summary>
 
-    - **Example:**
-      - A = 6
-      - M = 9
-      - B = 18
-      - Estimation:
-        - E = (6 + (4 * 9) + 18) / 6 = 10
-        - For 4 test cases: E = 10 * 4 = 40
-      - Measurement Error:
-        - SD = (18 - 6) / 6 = 2
-      - Final Answer:
-        - 10 ± 2
+- **Metrics-Based Technique**
+- Measurements are made early in the project to gather data
+- Effort required for the remaining work is approximated by extrapolating this data
+  - Usually with a mathematical model
+- Suitable for Iterative SDLCs
+  - Example:
+    - Extrapolate test effort for the next iteration as the average effort from the last three iterations
+
+</details>
+
+<details>
+  <summary><strong>Wideband Delphi Technique</strong></summary>
+
+- **Iterative, Expert-Based Technique**
+- Experts make experience-based estimations
+- Experts estimate effort in isolation
+- Results are collected, and if deviations are out of agreed boundaries, experts discuss and re-estimate
+- Repeated until consensus is achieved
+
+</details>
+
+<details>
+  <summary><strong>Planning Poker Technique</strong></summary>
+
+- Variant of Wideband Delphi
+- Commonly used in Agile Software Development
+- Estimates made using cards with numbers representing effort size
+
+</details>
+
+<details>
+  <summary><strong>Three-Point Estimation Technique</strong></summary>
+
+- **Expert-Based Technique**
+- Estimation is based on a single test case
+- Experts provide three estimations:
+  - Most Optimistic (A)
+  - Most Likely (M)
+  - Most Pessimistic (B)
+- Final Estimate (E) = (A + 4*M + B) / 6
+- Allows calculation of measurement error
+  - SD = (B - A) / 6
+
+</details>
+
+<details>
+  <summary><strong>Three-Point Estimation Example</strong></summary>
+
+- Most Optimistic (A) = 6
+- Most Likely (M) = 9
+- Most Pessimistic (B) = 18
+- Estimation:
+  - E = (6 + (4 * 9) + 18) / 6 = 10
+- Estimation for 4 test cases: 
+  - E = 10 * 4 = 40
+- Measurement Error:
+  - SD = (18 - 6) / 6 = 2
+- Final Answer:
+  - 10 ± 2
 
 </details>
 
@@ -938,39 +1035,65 @@ details summary {
 ## Test Case Prioritization [(5.1.5)](/Chapters/Chapter%205/Section_1.md#515)
 
 <details>
-  <summary><strong>(5.1.5) Test Case Prioritization</strong></summary>
+  <summary><strong>Test Case Prioritization</strong></summary>
 
-  - Test Cases and Test procedures are specified and assembled into Test Suites
-    - Test Suites are then arranged in a Test Execution Schedule
-      - Defined by the order they are to be run
+- Test Cases and Test procedures are specified and assembled into Test Suites
+  - Test Suites are then arranged in a Test Execution Schedule
+    - Defined by the order they are to be run
 
-  - Different factors are taken into account
-  - Most commonly used Test Case Prioritization Strategies:
-    - **Risk-Based Prioritization**
-      - Order of Test Execution is based on results of [Risk Analysis](Section_2.md#523)
-      - Test Cases covering the most important risks are executed first
+</details>
 
-    - **Coverage-Based Prioritization**
-      - Order of Test Execution is based on Coverage (Statement Coverage)
-      - Test Cases achieving the highest coverage are executed first
-      - **Additional Coverage Prioritization**
-        - Another variant of Coverage-Based Prioritization
-        - Test Case achieving the highest coverage is executed first
-        - Each subsequent test case is the one that achieves the highest additional coverage
+<details>
+  <summary><strong>Test Case Prioritization Order</strong></summary>
 
-    - **Requirements-Based Prioritization**
-      - Order of Test Execution is based on the priorities of the requirements traced back to the corresponding test cases
-      - Requirement priorities are defined by stakeholders
-      - Test cases related to the most important requirements are executed first
+- Ideally Test Cases would be ordered to run based on their priority levels using one of the below-mentioned prioritization strategies
+  - If test cases or features being tested have dependencies, this may not work
+  - If a test case with a higher priority is dependent on a test case with a lower priority, the lower priority test case must be executed first
 
-  - Ideally Test Cases would be ordered to run based on their priority levels using one of the above-mentioned prioritization strategies
-    - If test cases or features being tested have dependencies, this may not work
-    - If a test case with a higher priority is dependent on a test case with a lower priority, the lower priority test case must be executed first
+</details>
 
-  - Order of Test execution must also take into account of the availability of resources
-    - Required Test Tools
-    - Required Test Environments
-    - Required People that may only be available for a specific time window
+<details>
+  <summary><strong>Test Case Prioritization Execution Order</strong></summary>
+
+- Order of Test execution must also take into account of the availability of resources
+  - Required Test Tools
+  - Required Test Environments
+  - Required People that may only be available for a specific time window
+
+</details>
+
+<details>
+  <summary><strong>Risk-Based Prioritization</strong></summary>
+
+- Order of Test Execution is based on results of [Risk Analysis](/Chapters/Chapter%205/Section_2.md#523)
+- Test Cases covering the most important risks are executed first
+
+</details>
+
+<details>
+  <summary><strong>Coverage-Based Prioritization</strong></summary>
+
+- Order of Test Execution is based on Coverage (Statement Coverage)
+- Test Cases achieving the highest coverage are executed first
+
+
+</details>
+
+<details>
+  <summary><strong>Additional Coverage Prioritization</strong></summary>
+
+- Another variant of Coverage-Based Prioritization
+- Test Case achieving the highest coverage is executed first
+- Each subsequent test case is the one that achieves the highest additional coverage
+
+</details>
+
+<details>
+  <summary><strong>Requirements-Based Prioritization</strong></summary>
+
+- Order of Test Execution is based on the priorities of the requirements traced back to the corresponding test cases
+- Requirement priorities are defined by stakeholders
+- Test cases related to the most important requirements are executed first
 
 </details>
 
@@ -982,56 +1105,82 @@ details summary {
 ## Testing Quadrants [(5.1.7)](/Chapters/Chapter%205/Section_1.md#517)
 
 <details>
-  <summary><strong>(5.1.7) Testing Quadrants</strong></summary>
+  <summary><strong>Testing Quadrants</strong></summary>
 
-  - With Agile, Testing Quadrants are grouped by the test levels with the appropriate:
-    - Test Types
-    - Activities
-    - Test Techniques
-    - Work Products
+- Model supports test management in visualizing this
+  - Ensures that all appropriate test types and test levels are included in the SDLC
+  - Understands that some test types are more relevant to certain test levels than others
+  - Provides a way to differentiate and describe the types of tests to:
+    - All Stakeholders
+    - Developers
+    - Testers
+    - Business Representatives
 
-  - Model supports test management in visualizing this
-    - Ensures that all appropriate test types and test levels are included in the SDLC
-    - Understands that some test types are more relevant to certain test levels than others
-    - Provides a way to differentiate and describe the types of tests to:
-      - All Stakeholders
-      - Developers
-      - Testers
-      - Business Representatives
+- Tests can be Business Facing or Technology Facing
+- Tests support the team (Guide the development) or critique the product (Measure its behavior against the expectations)
 
-  - Tests can be Business Facing or Technology Facing
-  - Tests support the team (Guide the development) or critique the product (Measure its behavior against the expectations)
-    - These two viewpoints determine the four quadrants:
 
-    - **Quadrant Q1** (Technology Facing, support the team)
-      - Contains:
-        - Component
-        - Component Integration Tests
-      - Tests should be automated and included in CI process
+</details>
 
-    - **Quadrant Q2** (Business Facing, support the team)
-      - Contains:
-        - Functional tests
-        - Examples
-        - User Story Tests
-        - User Experience Prototypes
-        - API Testing
-        - Simulation
-      - These tests check the acceptance criteria
-      - Tests can be manual or automated
+<details>
+  <summary><strong>Testing Quadrants within Agile</strong></summary>
 
-    - **Quadrant Q3** (Business Facing, critique the product)
-      - Contains:
-        - Exploratory Testing
-        - Usability Testing
-        - User Acceptance Testing
-      - User Oriented and often manual
+- With Agile, Testing Quadrants are grouped by the test levels with the appropriate:
+  - Test Types
+  - Activities
+  - Test Techniques
+  - Work Products
 
-    - **Quadrant Q4** (Technology Facing, critique the product)
-      - Contains:
-        - Smoke Tests
-        - Non-Functional Tests (except Usability Tests)
-      - Tests are often automated
+
+</details>
+
+<details>
+  <summary><strong>Quadrant Q1</strong></summary>
+
+- Technology Facing, support the team
+- Contains:
+  - Component
+  - Component Integration Tests
+- Tests should be automated and included in CI process
+
+</details>
+
+<details>
+  <summary><strong>Quadrant Q2</strong></summary>
+
+- Business Facing, support the team
+- Contains:
+  - Functional tests
+  - Examples
+  - User Story Tests
+  - User Experience Prototypes
+  - API Testing
+  - Simulation
+- These tests check the acceptance criteria
+- Tests can be manual or automated
+
+</details>
+
+<details>
+  <summary><strong>Quadrant Q3</strong></summary>
+
+- Business Facing, critique the product
+- Contains:
+  - Exploratory Testing
+  - Usability Testing
+  - User Acceptance Testing
+- User Oriented and often manual
+
+</details>
+
+<details>
+  <summary><strong>Quadrants Q4</strong></summary>
+
+- Technology Facing, critique the product
+- Contains:
+  - Smoke Tests
+  - Non-Functional Tests (except Usability Tests)
+- Tests are often automated
 
 </details>
 
@@ -1043,26 +1192,36 @@ details summary {
 ## Risk Definition and Risk Attributes [(5.2.1)](/Chapters/Chapter%205/Section_2.md#521)
 
 <details>
-  <summary><strong>(5.2.1) Risk Definition and Risk Attributes</strong></summary>
+  <summary><strong>What is Risk</strong></summary>
 
-  - Risk is a potential **Event** whose occurrence causes an adverse effect:
-    - Event
-    - Hazard
-    - Threat
-    - Situation
-
-  - Risk can be characterized by two factors:
-    - **Risk Likelihood**
-      - Probability of Risk Occurrence (greater than 0, less than 1)
-    - **Risk Impact (Harm)**
-      - Consequences of this occurrence
-    - These factors express the risk level
-      - Measure for the risk
-      - Higher the risk level, the more important is its treatment
-    - **Risk Level = Risk Impact * Risk Likelihood**
+- Risk is a potential **Event** whose occurrence causes an adverse effect:
+  - Event
+  - Hazard
+  - Threat
+  - Situation
 
 </details>
 
+<details>
+  <summary><strong>How is Risk characterized</strong></summary>
+
+- Risk can be characterized by two factors:
+  - **Risk Likelihood**
+    - Probability of Risk Occurrence (greater than 0, less than 1)
+  - **Risk Impact (Harm)**
+    - Consequences of this occurrence
+  - These factors express the risk level
+
+</details>
+
+<details>
+  <summary><strong>Risk Level</strong></summary>
+
+- Measure for the risk
+- Higher the risk level, the more important is its treatment
+- **Risk Level = Risk Impact * Risk Likelihood**
+
+</details>
 
 <!-- #endregion -->
 
@@ -1071,61 +1230,102 @@ details summary {
 ## Purpose, Content, and Audience for Test Reports [(5.3.2)](/Chapters/Chapter%205/Section_3.md#532)
 
 <details>
-  <summary><strong>(5.3.2) Purpose, Content, and Audience for Test Reports</strong></summary>
+  <summary><strong>Test Reports</strong></summary>
 
-  - **Test Reporting** summarizes and communicates test information during and after testing
-
-  - **Test Progress Reports** support the ongoing control of the testing
-    - When changes are needed due to deviation from the plan or changed circumstances, report must provide enough information to make modifications to:
-      - Test Schedule
-      - Resources
-      - Test Plan
-
-  - **Test Completion Reports**
-    - Summarize a specific stage of testing and can give information for subsequent testing
-      - Test Level
-      - Test Cycle
-      - Iteration
-    - Prepared during test completion, when a **Test Level** is complete:
-      - Project
-      - Test level
-      - Test type
-    - Or ideally, the exit criteria have been met
-    - Report uses test progress reports and other data
-    - Typically includes:
-      - Test Summary
-      - Testing and Product quality evaluation based on the original test plan
-        - Test Objectives
-        - Exit Criteria
-      - Deviations from the test plan
-        - Differences from the planned schedule, duration, and effort
-      - Testing impediments and workarounds
-      - Test metrics based on test progress reports
-      - Unmitigated risks, defects not fixed
-      - Lessons learned that are relevant to the testing
-  
-  - During Test Monitoring and Control, test team generates test progress reports for stakeholders to keep them informed
-  - Test Reports are usually generated on a regular basis and include:
-    - Test Period
-    - Test Progress including any notable deviations
-      - Ahead or behind schedule
-    - Impediments for testing and their workarounds
-    - [Test Metrics](#531)
-    - New and changed risks within the testing period
-    - Testing planned for the next period
-
-  - Different audiences:
-    - Require different information in the reports
-    - Influence the degree of formality
-    - The frequency of reporting
-  
-  - Test Progress Reporting to others in the same team is often frequent and informal
-  - Project Testing Completion Reporting follows a set template and occurs only once
-
+  - Summarizes and communicates test information during and after testing
   - Test Completion Reports and Test Progress Reports (Test Status Reports) templates and examples can be found at ISO/IEC/IEEE 29119-3
 
 </details>
 
+<details>
+  <summary><strong>Test Progress Reports</strong></summary>
+
+- Support the ongoing control of the testing
+- Test Progress Reporting to others in the same team is often frequent and informal
+
+</details>
+
+<details>
+  <summary><strong>When are Test Progress Reports prepared</strong></summary>
+
+- When changes are needed due to deviation from the plan or changed circumstances
+
+</details>
+
+<details>
+  <summary><strong>Test Progress Reports usually include</strong></summary>
+
+- Report must provide enough information to make modifications to:
+  - Test Schedule
+  - Resources
+  - Test Plan
+
+</details>
+
+<details>
+  <summary><strong>Test Completion Reports</strong></summary>
+
+- Summarize a specific stage of testing and can give information for subsequent testing
+  - Test Level
+  - Test Cycle
+  - Iteration
+
+- Report uses test progress reports and other data
+- Project Testing Completion Reporting follows a set template and occurs only once
+  
+</details>
+
+<details>
+  <summary><strong>When are Test Completion Reports prepared</strong></summary>
+
+- Prepared during test completion, when a **Test Level** is complete:
+  - Project
+  - Test level
+  - Test type
+- Or ideally, the exit criteria have been met
+  
+</details>
+
+<details>
+  <summary><strong>Test Completion Reports usually include</strong></summary>
+
+- Test Summary
+- Testing and Product quality evaluation based on the original test plan
+  - Test Objectives
+  - Exit Criteria
+- Deviations from the test plan
+  - Differences from the planned schedule, duration, and effort
+- Testing impediments and workarounds
+- Test metrics based on test progress reports
+- Unmitigated risks, defects not fixed
+- Lessons learned that are relevant to the testing
+  
+</details>
+
+<details>
+  <summary><strong>Different Audiences for Test Reports</strong></summary>
+
+- Different audiences:
+  - Require different information in the reports
+  - Influence the degree of formality
+  - The frequency of reporting
+
+</details>
+
+<details>
+  <summary><strong>Test Reports Generation</strong></summary>
+  
+- During Test Monitoring and Control, test team generates test progress reports for stakeholders to keep them informed
+- Test Reports are usually generated on a regular basis and include:
+  - Test Period
+  - Test Progress including any notable deviations
+    - Ahead or behind schedule
+  - Impediments for testing and their workarounds
+  - [Test Metrics](/Chapters/Chapter%205/Section_3.md#531)
+  - New and changed risks within the testing period
+  - Testing planned for the next period
+
+</details>
 
 <!-- #endregion -->
 
@@ -1143,56 +1343,85 @@ details summary {
   - These defects are resolved during the process of dealing with defect reports
   - Anomalies may be reported during any phase of the SDLC and the form depends on the SDLC
   - At a minimum, Defect Management Process includes a workflow for handling individual anomalies from their discovery to their closure and rules for their classification
-  - Workflow typically comprises activities to:
-    - Log the reported anomalies
-    - Analyze anomalies
-    - Classify anomalies
-    - Decide on a suitable response
-      - Fix anomalies
-      - Keep as is
-    - Close the defect report
-
-  - Typical defect reports have the following objectives:
-    - Provide those responsible for handling and resolving reported defects with sufficient information to resolve the issue
-    - Provide a means of tracking the quality of the work product
-    - Provide ideas for improvement of the development and test process
-
-  - A defect report logged during dynamic testing typically includes:
-    - Unique identifier
-    - Title with a short summary of the anomaly being reported
-    - Date when the anomaly was observed, issuing organization, and author, including their role
-    - Identification of the test object and test environment
-    - Context of the defect
-      - Test case being run
-      - Test activity being performed
-      - SDLC phase
-      - Other relevant information such as:
-        - Test technique
-        - Checklist
-        - Test data being used
-    - Description of the failure to enable reproduction and resolution including the steps that detected the anomaly, and any relevant **test logs**, **database dumps**, **screenshots**, or **recordings**
-    - Expected/Actual Results
-    - Severity of defect on the interests of stakeholders or requirements
-    - Priority to fix
-    - Status of the defect
-      - Open
-      - Deferred
-      - Duplicate
-      - Waiting to be fixed
-      - Awaiting confirmation of testing
-      - Re-opened
-      - Closed
-      - Rejected
-    - References
-      - to the test cases
-
-  - Some of the listed data may automatically included when using defect management tools
-    - Identifier
-    - Date
-    - Author
-    - Initial Status
-
   - Document templates for a defect report and example defect reports can be found in ISO/IEC/IEEE 29119-3 Standard
+
+</details>
+
+<details>
+  <summary><strong>Defect Management Workflow</strong></summary>
+
+- Typically comprises of activities to:
+  - Log the reported anomalies
+  - Analyze anomalies
+  - Classify anomalies
+  - Decide on a suitable response
+    - Fix anomalies
+    - Keep as is
+  - Close the defect report
+
+</details>
+
+<details>
+  <summary><strong>Typical Defect Report Objectives</strong></summary>
+
+- Provide those responsible for handling and resolving reported defects with sufficient information to resolve the issue
+- Provide a means of tracking the quality of the work product
+- Provide ideas for improvement of the development and test process
+
+</details>
+
+<details>
+  <summary><strong>Defect Reports during Dynamic Testing typically includes</strong></summary>
+
+- Unique identifier
+- Title with a short summary of the anomaly being reported
+- Date when the anomaly was observed, issuing organization, and author, including their role
+- Identification of the test object and test environment
+- Context of the defect
+- Description of the failure to enable reproduction and resolution including the steps that detected the anomaly, and any relevant **test logs**, **database dumps**, **screenshots**, or **recordings**
+- Expected/Actual Results
+- Severity of defect on the interests of stakeholders or requirements
+- Priority to fix
+- Status of the defect
+- References
+  - to the test cases
+
+</details>
+
+<details>
+  <summary><strong>Automatically included data with Defect Management Tools</strong></summary>
+
+- Identifier
+- Date
+- Author
+- Initial Status
+
+</details>
+
+<details>
+  <summary><strong>Defect Context</strong></summary>
+
+- Test case being run
+- Test activity being performed
+- SDLC phase
+- Other relevant information such as:
+  - Test technique
+  - Checklist
+  - Test data being used
+
+</details>
+
+<details>
+  <summary><strong>Defect Statuses</strong></summary>
+
+- Open
+- Deferred
+- Duplicate
+- Waiting to be fixed
+- Awaiting confirmation of testing
+- Re-opened
+- Closed
+- Rejected
 
 </details>
 
@@ -1204,54 +1433,87 @@ details summary {
 ## Benefits and Risks of Test Automation [(6.2)](/Chapters/Chapter%206/Section_2.md)
 
 <details>
-  <summary><strong>Benefits and Risks of Test Automation</strong></summary>
+  <summary><strong>Does Test Automation guarantee success</strong></summary>
 
-  - Acquiring a tool does not guarantee success
-    - Each new tool will require effort to achieve real and lasting benefits
-      - Tool introduction
-      - Tool maintenance
-      - Tool training
-    - Some risks need analysis and mitigation
+- Acquiring a tool does not guarantee success
+  - Each new tool will require effort to achieve real and lasting benefits
+    - Tool introduction
+    - Tool maintenance
+    - Tool training
+  - Some risks need analysis and mitigation
 
-  - **Test Automation Benefits:**
-    - Time saved by reducing repetitive manual work
-      - Execute regression tests
-      - Re-enter the same test data
-      - Compare expected vs actual results
-      - Check against coding standards
-    - Prevention of simple human errors through greater consistency and repeatability
-      - Tests are consistently derived from requirements
-      - Test data is created in a systematic manner
-      - Tests are executed by a tool in the same order with the same frequency
-    - More objective assessment (coverage) and providing measures that are too complicated for humans to derive
-    - Easier access to information about testing to support test management and test reporting
-      - Statistics
-      - Graphs
-      - Aggregated data about test progress
-      - Defect rates
-      - Test execution duration
-    - Reduced test execution times to provide earlier defect detection, faster feedback, and faster time to market
-    - More time for testers to design new, deeper, and more effective tests
+</details>
 
-  - **Test Automation Risks:**
-    - Unrealistic expectations about the benefits of a tool
-      - Functionality
-      - Ease of use
-    - Inaccurate estimations of time, costs, and effort required to introduce a tool, maintain test scripts, and change the existing manual test process
-    - Using a test tool when manual testing is more appropriate
-    - Relying on a tool too much
-      - Ignoring the need for human critical thinking
-    - The dependency on the tool vendor which may:
-      - Go out of business
-      - Retire the tool
-      - Sell the tool to a different vendor
-      - Provide poor support
-        - Responses to queries
-        - Upgrades
-        - Defect fixes
-    - Using open-source software which may be abandoned, leading to no further updates, or requiring frequent updates due to further development
-    - The automation tool is not compatible with the development platform
-    - Choosing an unsuitable tool that does not comply with regulatory requirements and/or safety standards
+<details>
+  <summary><strong>Test Automation Benefits</strong></summary>
+
+- Time saved by reducing repetitive manual work
+- Prevention of simple human errors through greater consistency and repeatability
+- More objective assessment (coverage) and providing measures that are too complicated for humans to derive
+- Easier access to information about testing to support test management and test reporting
+- Reduced test execution times to provide earlier defect detection, faster feedback, and faster time to market
+- More time for testers to design new, deeper, and more effective tests
+
+</details>
+
+<details>
+  <summary><strong>How Test Automation saves time</strong></summary>
+
+- Execute regression tests
+- Re-enter the same test data
+- Compare expected vs actual results
+- Check against coding standards
+
+</details>
+
+<details>
+  <summary><strong>How Test Automation prevents simple human error</strong></summary>
+
+- Tests are consistently derived from requirements
+- Test data is created in a systematic manner
+- Tests are executed by a tool in the same order with the same frequency
+
+</details>
+
+<details>
+  <summary><strong>Test Automation Information about Testing</strong></summary>
+
+- Statistics
+- Graphs
+- Aggregated data about test progress
+- Defect rates
+- Test execution duration
+
+</details>
+
+<details>
+  <summary><strong>Test Automation Risks</strong></summary>
+
+- Unrealistic expectations about the benefits of a tool
+  - Functionality
+  - Ease of use
+- Inaccurate estimations of time, costs, and effort required to introduce a tool, maintain test scripts, and change the existing manual test process
+- Using a test tool when manual testing is more appropriate
+- Relying on a tool too much
+  - Ignoring the need for human critical thinking
+- The dependency on the tool vendor
+- Using open-source software which may be abandoned, leading to no further updates, or requiring frequent updates due to further development
+- The automation tool is not compatible with the development platform
+- Choosing an unsuitable tool that does not comply with regulatory requirements and/or safety standards
+
+</details>
+
+<details>
+  <summary><strong>Test Automation Tool Vendor Dependency Risks</strong></summary>
+
+- The dependency on the tool vendor may:
+  - Go out of business
+  - Retire the tool
+  - Sell the tool to a different vendor
+  - Provide poor support
+    - Responses to queries
+    - Upgrades
+    - Defect fixes
 
 </details>
 
