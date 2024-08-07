@@ -454,47 +454,83 @@ details summary {
   <summary><strong>Decision Tables</strong></summary>
 
   - Used for testing implementation of system requirements that specify how different combinations of conditions result in different outcomes
-    - Effective way of recording complex logic, such as business rules
-    - Table Rows:
-      - Conditions and resulting actions of the system are defined
-    - Table Columns:
-      - Corresponds to a decision rule that defines a unique combination of conditions
-      - Along with associated actions
-    - **Limited-Entry Decision Table**:
-      - All values of the conditions and actions (except for irrelevant or infeasible ones) are shown as Boolean values (True or False)
-    - **Extended-Entry Decision Table**:
-      - Some or all conditions or actions may take on multiple values:
-        - Ranges of numbers
-        - Equivalence partitions
-        - Discrete Values
-    - Notation for Conditions:
-      - **"T"** : True - Condition satisfied
-      - **"F"** : False - Condition is not satisfied
-      - **"-"** : Value of condition is irrelevant for action outcome
-      - **"N/A"** : Condition is infeasible for a given rule
-    - Notation for Actions:
-      - **"X"** : Action should occur
-      - **"Blank"** : Action should not occur
-      - Other notations may be used
-    - Full decision table has enough columns to cover every combination of conditions
-    - Table can be simplified by:
-      - Deleting columns containing infeasible combinations of conditions
-      - Merging columns where conditions do not affect the outcome into a single column
-      - Minimization algorithms are out of scope of syllabus
-    - Coverage items are the columns containing feasible combinations of conditions
-    - Achieving 100% Coverage:
-      - Test cases must exercise all these columns
-      - Number of exercised columns
-      - Divided by total number of feasible columns
-      - Expressed as a percentage
-    - Provides systematic approach to identify all combinations of conditions where some might be overlooked
-    - Helps find any gaps or contradictions in the requirements
-    - If there are many conditions:
-      - Exercising all the decision rules may be time consuming:
-        - Number of rules grows exponentially with the number of conditions
-      - Reduce the number of rules that need to be exercised
-      - Minimized decision table
-      - Risk-Based approach
+  - Effective way of recording complex logic, such as business rules
+  - Full decision table has enough columns to cover every combination of conditions
+  - Table can be simplified by:
+    - Deleting columns containing infeasible combinations of conditions
+    - Merging columns where conditions do not affect the outcome into a single column
+    - Minimization algorithms are out of scope of syllabus
+  - Coverage items are the columns containing feasible combinations of conditions
+  
+  - Provides systematic approach to identify all combinations of conditions where some might be overlooked
+  - Helps find any gaps or contradictions in the requirements
+  - If there are many conditions:
+    - Exercising all the decision rules may be time consuming:
+      - Number of rules grows exponentially with the number of conditions
+    - Reduce the number of rules that need to be exercised
+    - Minimized decision table
+    - Risk-Based approach
+
+</details>
+
+<details>
+  <summary>Achieving 100% Coverage</summary> 
+
+- Test cases must exercise all these columns
+- Number of exercised columns
+- Divided by total number of feasible columns
+- Expressed as a percentage
+
+</details>
+
+<details>
+  <summary>Decision Table Notation for Conditions</summary> 
+
+- **"T"** : True - Condition satisfied
+- **"F"** : False - Condition is not satisfied
+- **"-"** : Value of condition is irrelevant for action outcome
+- **"N/A"** : Condition is infeasible for a given rule
+
+</details>
+
+<details>
+  <summary>Decision Table Notation for Actions</summary> 
+
+- **"X"** : Action should occur
+- **"Blank"** : Action should not occur
+- Other notations may be used
+
+</details>
+
+<details>
+  <summary>Decision Table Rows</summary> 
+
+- Conditions and resulting actions of the system are defined
+
+</details>
+
+<details>
+  <summary>Decision Table Columns</summary> 
+
+- Corresponds to a decision rule that defines a unique combination of conditions
+- Along with associated actions
+
+</details>
+
+<details>
+  <summary>Limited-Entry Decision Table</summary> 
+
+- All values of the conditions and actions (except for irrelevant or infeasible ones) are shown as Boolean values (True or False)
+
+</details>
+
+<details>
+  <summary>Extended-Entry Decision Table</summary> 
+
+- Some or all conditions or actions may take on multiple values:
+  - Ranges of numbers
+  - Equivalence partitions
+  - Discrete Values
 
 </details>
 
