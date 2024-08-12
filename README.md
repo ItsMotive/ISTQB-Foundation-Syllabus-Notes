@@ -19,3 +19,4 @@
 - [Practice Test (Patshala)](https://istqb.patshala.com/)
 - [ISTQB Foundation Level Info](https://www.istqb.org/certifications/certified-tester-foundation-level)
 - [Combined Questions for Section 1](https://forms.gle/RvhMFvVEdaaavQsp9) (Based on ISTQB Practice Exams A-D)
+- [Combined Questions for Section 2](https://forms.gle/oRAQzMMKfFrvvq3YA) (Based on ISTQB Practice Exams A-D)
