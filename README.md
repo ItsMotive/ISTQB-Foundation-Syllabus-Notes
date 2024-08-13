@@ -22,3 +22,5 @@
 - [Combined Questions for Section 2](https://forms.gle/oRAQzMMKfFrvvq3YA) (Based on ISTQB Practice Exams A-D)
 - [Combined Questions for Section 3](https://forms.gle/XRSJMnuaKRi7BeBa6) (Based on ISTQB Practice Exams A-D)
 - [Combined Questions for Section 4](https://forms.gle/rSW1zUNU2DJRL1GRA) (Based on ISTQB Practice Exams A-D)
+- [Combined Questions for Section 5](https://forms.gle/AJEwh5svRz6sEK7V6) (Based on ISTQB Practice Exams A-D)
+- [Combined Questions for Section 6](https://forms.gle/WwUm1FcXTqCBSPyQ6) (Based on ISTQB Practice Exams A-D)
