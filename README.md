@@ -3,6 +3,12 @@
 ## Description
 
 - My review to prepare for ISTQB Foundation Level Exam.
+- Passed with a 70% using this as a study guide
+- Did one practice test of Appendix Quiz from ISTQB Practice, 2 days before Exam
+- Attempted Combined Questions Once/Twice a week until 80%
+  - Attempted once or twice a week to see if I retained information
+  - Try to avoid taking practice exams consecutive days
+- Also did ISTQB Glossary Quiz until 90+% w/ 100 Questions
 
 ## Table of Contents
 
@@ -18,6 +24,7 @@
 - [Link to Syllabus v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf)
 - [Practice Test (Patshala)](https://istqb.patshala.com/)
 - [ISTQB Foundation Level Info](https://www.istqb.org/certifications/certified-tester-foundation-level)
+- [ISTQB Glossary Quiz](https://glossary.istqb.org/en_US/quiz)
 - [Combined Questions for Section 1](https://forms.gle/RvhMFvVEdaaavQsp9) (Based on ISTQB Practice Exams A-D)
 - [Combined Questions for Section 2](https://forms.gle/oRAQzMMKfFrvvq3YA) (Based on ISTQB Practice Exams A-D)
 - [Combined Questions for Section 3](https://forms.gle/XRSJMnuaKRi7BeBa6) (Based on ISTQB Practice Exams A-D)
