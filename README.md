@@ -3,7 +3,7 @@
 ## Description
 
 - My review to prepare for ISTQB Foundation Level Exam.
-- Passed with a 70% using this as a study guide
+- Passed with a 77.5% using this as a study guide
 - Did one practice test of Appendix Quiz from ISTQB Practice, 2 days before Exam
 - Attempted Combined Questions Once/Twice a week until 80%
   - Attempted once or twice a week to see if I retained information
